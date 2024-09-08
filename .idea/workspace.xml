@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Book pages and images">
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Book page temp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/book1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiction_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiction_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/childrensbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/childrensbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,32 +48,30 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2lh1vQ3Ubn9jyHGTp4WF9qk4uut" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.book1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.categories.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.childrensbook.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.book1.html.executor": "Run",
+    "JavaScript Debug.categories.html.executor": "Run",
+    "JavaScript Debug.childrensbook.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.register.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,15 +102,7 @@
       <option name="project" value="LOCAL" />
       <updated>1725752476555</updated>
     </task>
-    <task id="LOCAL-00002" summary="Book pages and images">
-      <option name="closed" value="true" />
-      <created>1725810452434</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1725810452434</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +110,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Book page temp" />
-    <MESSAGE value="Book pages and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book pages and images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book page temp" />
   </component>
 </project>
