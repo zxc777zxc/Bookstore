@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="added css">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="added new page with css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/childrensbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/childrensbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/catergories.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fiction_book.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/quiz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiction_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genre_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/genre_quiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726419459390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added new page with css">
+      <option name="closed" value="true" />
+      <created>1726421466596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726421466596</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +175,7 @@
     <MESSAGE value="fda" />
     <MESSAGE value="added css to contacts" />
     <MESSAGE value="added css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added css" />
+    <MESSAGE value="added new page with css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new page with css" />
   </component>
 </project>
