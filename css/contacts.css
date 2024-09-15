@@ -1,0 +1,33 @@
+body {
+    background-color: #C7F9CC;
+    font-family: Arial, sans-serif;
+}
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+.section-title {
+    color: #1230AE;
+}
+
+.section-description {
+    font-weight: bold;
+}
+
+.social-media .social-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.social-icon {
+    width: 65px;
+}
+
+.contact-info .contact-link {
+    color: #1230AE;
+    text-decoration: none;
+}
+
+.contact-info .contact-link:hover {
+    text-decoration: underline;
+}
