@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Footer and register update">
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="CSS main page update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +100,7 @@
       <workItem from="1725962358865" duration="2827000" />
       <workItem from="1726218461453" duration="476000" />
       <workItem from="1726222767197" duration="22000" />
-      <workItem from="1726386673214" duration="3430000" />
+      <workItem from="1726386673214" duration="6488000" />
     </task>
     <task id="LOCAL-00001" summary="Book page temp">
       <option name="closed" value="true" />
@@ -104,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725752476555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CSS main page update">
+      <option name="closed" value="true" />
+      <created>1726390352998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726390352998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Book page temp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book page temp" />
+    <MESSAGE value="CSS main page update" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS main page update" />
   </component>
 </project>

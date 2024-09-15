@@ -3,61 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book 1</title>
+  <title>Neuromancer</title>
+  <link rel="stylesheet" href="../css/Head.css">
+  <link rel="stylesheet" href="../css/shoping.css">
+
+  <style>
+    body{
+      background: #C7F9CC;
+    }
+    header{
+      width: 100%;
+    }
+
+    footer{
+      color:white;
+      background: #57CC99;
+      height: 80px;
+    }
+  </style>
 </head>
 <body bgcolor="#FFF7F7">
 
 <!-- Title -->
 <header>
-  <table width="100%" bgcolor="#1230AE">
-    <tr>
-      <td align="center">
-        <font color="white">
-          <h1>Bookstore</h1>
-        </font>
-      </td>
-    </tr>
-    <tr bgcolor="#6C48C5">
-      <td align="center">
-        <font color="white">
-          <a href="../index.html"> <font color="white"> Home  </font> </a> |
-          <a href="../cart.html"> <font color="white"> Shopping Cart </font> </a> |
-          <a href="../contacts.html"> <font color="white"> Contacts </font> </a> |
-          <a href="../categories.html"><font color="white">Categories</font></a>
-        </font>
-      </td>
-    </tr>
-  </table>
+  <div class="title">
+    <a href="register.html"  id="register"><font align="right">Login/Registration</font></a> <br>
+    Neuromancer
+  </div>
+  <div class="container">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="openbtn">☰ Categories |</label>
+    <div class="sidenav">
+      <label for="menu-toggle" class="closebtn">×</label>
+      <span id="cat">Categories</span>
+      <a href="fiction_book.html">Fiction</a>
+      <a href="childrensbook.html">Children Books</a>
+      <a href="categories.html">All Categories</a>
+    </div>
+    <a href="../cart.html" class="openbtn">  Shopping Cart  </a> |
+    <a href="../contacts.html" class="openbtn"> Contacts  </a> |
+    <a href="../index.html" class="openbtn"> Main page  </a> |
+  </div>
 </header>
 
 <!-- Book info -->
 <section>
-  <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
-    <tr>
-      <!-- Book photo -->
-      <td align="center" valign="top" width="30%">
-        <img src="../img/necro.jpg" alt="Book" width="200" height="300">
-      </td>
 
-      <!-- Description -->
-      <td align="left" valign="top">
-        <h2>Neuromancer</h2>
-        <p><b>Author:</b> William Gibson</p>
-        <p><b>Description:</b> A cyberpunk masterpiece that follows Case, a washed-up computer hacker hired by a mysterious employer to pull off one final job in a dystopian future dominated by powerful corporations and artificial intelligences.</p>
-        <p><b>Price:</b> 5,500 KZT</p>
-        <p><b>Score:</b> 4.5/5</p>
-        <p>
-          <b>Reviews:</b>
-        <ul>
-          <li>User1: A visionary work that set the standard for cyberpunk fiction.</li>
-          <li>User1: Dense and sometimes difficult to follow, but rewarding for dedicated readers.</li>
-          <li>User1: Its influence on sci-fi and pop culture is undeniable.</li>
-        </ul>
-        </p>
-        <a href="../cart.html">ADD TO CART</a>
-      </td>
-    </tr>
-  </table>
+  <div id="container">
+    <div id="img">
+      <img src="../img/necro.jpg" width="66%" height="100%">
+    </div>
+    <div id="description">
+      A cyberpunk masterpiece that follows Case, a washed-up computer hacker hired by a mysterious employer to pull off one final job in a dystopian future dominated by powerful corporations and artificial intelligences.</p>
+      <br><br><br>
+      <span>
+        Neuromancer<br>
+        Author: William Gibson
+      </span>
+
+    </div>
+    <div id="buy">
+      <b1>William Gibson</b1><br>
+      <a href="../cart.html" id="button">
+        Buy Now
+      </a>
+
+
+    </div>
+  </div>
+
+
 </section>
 
 <!-- Footer -->

@@ -3,61 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book 1</title>
+  <title>Dune</title>
+  <link rel="stylesheet" href="../css/Head.css">
+  <link rel="stylesheet" href="../css/shoping.css">
+
+  <style>
+    body{
+      background: #C7F9CC;
+    }
+    header{
+      width: 100%;
+    }
+
+    footer{
+      color:white;
+      background: #57CC99;
+      height: 80px;
+    }
+  </style>
+
 </head>
-<body bgcolor="#FFF7F7">
+<body >
 
 <!-- Title -->
 <header>
-  <table width="100%" bgcolor="#1230AE">
-    <tr>
-      <td align="center">
-        <font color="white">
-          <h1>Bookstore</h1>
-        </font>
-      </td>
-    </tr>
-    <tr bgcolor="#6C48C5">
-      <td align="center">
-        <font color="white">
-          <a href="../index.html"> <font color="white"> Home  </font> </a> |
-          <a href="../cart.html"> <font color="white"> Shopping Cart </font> </a> |
-          <a href="../contacts.html"> <font color="white"> Contacts </font> </a> |
-          <a href="../categories.html"><font color="white">Categories</font></a>
-        </font>
-      </td>
-    </tr>
-  </table>
+  <div class="title">
+    <a href="register.html"  id="register"><font align="right">Login/Registration</font></a> <br>
+    Dune
+  </div>
+  <div class="container">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="openbtn">☰ Categories |</label>
+    <div class="sidenav">
+      <label for="menu-toggle" class="closebtn">×</label>
+      <span id="cat">Categories</span>
+      <a href="fiction_book.html">Fiction</a>
+      <a href="childrensbook.html">Children Books</a>
+      <a href="categories.html">All Categories</a>
+    </div>
+    <a href="../cart.html" class="openbtn">  Shopping Cart  </a> |
+    <a href="../contacts.html" class="openbtn"> Contacts  </a> |
+    <a href="../index.html" class="openbtn"> Main page  </a> |
+  </div>
+
 </header>
 
 <!-- Book info -->
 <section>
-  <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
-    <tr>
-      <!-- Book photo -->
-      <td align="center" valign="top" width="30%">
-        <img src="../img/dune.jpg" alt="Dune" width="200" height="300">
-      </td>
 
-      <!-- Description -->
-      <td align="left" valign="top">
-        <h2>Dune</h2>
-        <p><b>Author:</b> Frank Herbert</p>
-        <p><b>Description:</b> A science fiction epic set in a distant future where noble families vie for control of the desert planet Arrakis, the only source of the precious spice melange. The story follows young Paul Atreides as he navigates political intrigue, environmental challenges, and his destiny.</p>
-        <p><b>Price:</b> 6,000 KZT</p>
-        <p><b>Score:</b> 5/5</p>
-        <p>
-          <b>Reviews:</b>
-        <ul>
-          <li>User1: A monumental work of science fiction, rich with complex characters and intricate politics.</li>
-          <li>User1: Herbert's world-building is unparalleled, but the pacing may feel slow for some."</li>
-          <li>User1: A thought-provoking novel that delves into ecology, power, and destiny.</li>
-        </ul>
-        </p>
-        <a href="../cart.html">ADD TO CART</a>
-      </td>
-    </tr>
-  </table>
+  <div id="container">
+    <div id="img">
+      <img src="../img/dune.jpg" alt="Dune" width="66%" height="100%">
+    </div>
+    <div id="description">
+      A science fiction epic set in a distant future where noble families vie for control of the desert planet Arrakis, the only source of the precious spice melange. The story follows young Paul Atreides as he navigates political intrigue, environmental challenges, and his destiny.
+      <br><br><br>
+      <span>
+        Dune<br>
+        Author: Frank Herbert
+      </span>
+
+    </div>
+    <div id="buy">
+      <b1>6,000 KZT</b1><br>
+      <a href="../cart.html" id="button">
+        Buy Now
+      </a>
+
+
+    </div>
+  </div>
+
+
+<!--  <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">-->
+<!--    <tr>-->
+<!--      &lt;!&ndash; Book photo &ndash;&gt;-->
+<!--      <td align="center" valign="top" width="30%">-->
+<!--        <img src="../img/dune.jpg" alt="Dune" width="200" height="300">-->
+<!--      </td>-->
+
+<!--      &lt;!&ndash; Description &ndash;&gt;-->
+<!--      <td align="left" valign="top">-->
+<!--        <h2>Dune</h2>-->
+<!--        <p><b>Author:</b> Frank Herbert</p>-->
+<!--        <p><b>Description:</b> A science fiction epic set in a distant future where noble families vie for control of the desert planet Arrakis, the only source of the precious spice melange. The story follows young Paul Atreides as he navigates political intrigue, environmental challenges, and his destiny.</p>-->
+<!--        <p><b>Price:</b> 6,000 KZT</p>-->
+<!--        <p><b>Score:</b> 5/5</p>-->
+<!--        <p>-->
+<!--          <b>Reviews:</b>-->
+<!--        <ul>-->
+<!--          <li>User1: A monumental work of science fiction, rich with complex characters and intricate politics.</li>-->
+<!--          <li>User1: Herbert's world-building is unparalleled, but the pacing may feel slow for some."</li>-->
+<!--          <li>User1: A thought-provoking novel that delves into ecology, power, and destiny.</li>-->
+<!--        </ul>-->
+<!--        </p>-->
+<!--        <a href="../cart.html">ADD TO CART</a>-->
+<!--      </td>-->
+<!--    </tr>-->
+<!--  </table>-->
 </section>
 
 <!-- Footer -->
