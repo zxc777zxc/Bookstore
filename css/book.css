@@ -1,0 +1,33 @@
+#book-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+
+    margin-bottom: 200px;
+}
+
+.name{
+    font-size: 20px;
+    color:black;
+}
+
+.price{
+    color:red;
+    font-size: 26px;
+}
+
+.author{
+    font-size: 16px;
+    color: gray;
+}
+
+.book{
+    width:200px;
+    position: relative;
+    background: #80ED99;
+}
+
+.book img{
+    width: 100%;
+}

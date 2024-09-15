@@ -4,124 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
+
+    <link rel="stylesheet" href="css/Head.css">
+    <link rel="stylesheet" href="css/book.css">
+    <style>
+        body{
+            background: #C7F9CC;
+        }
+        header{
+            width: 100%;
+        }
+
+        footer{
+            color:white;
+            background: #57CC99;
+            height: 80px;
+        }
+    </style>
 </head>
 <body bgcolor="#FFF7F7">
 
-<table width="100%" bgcolor="#1230AE">
-    <tr>
-        <td>
-            <a href="register.html">
-                <font color="white" align="right">
-                    <h3>
-                            Login/Registration
-                    </h3>
-                </font>
-            </a>
-        </td>
-    </tr>
+<!--<table width="100%" bgcolor="#1230AE">-->
+<!--    <tr>-->
+<!--        <td>-->
+<!--            <a href="register.html">-->
+<!--                <font color="white" align="right">-->
+<!--                    <h3>-->
+<!--                            Login/Registration-->
+<!--                    </h3>-->
+<!--                </font>-->
+<!--            </a>-->
+<!--        </td>-->
+<!--    </tr>-->
 
-</table>
+<!--</table>-->
 
 
 <!--Header-title -->
 <header>
-    <table width="100%" bgcolor="#1230AE">
-        <tr>
-            <td align="center">
-                <font color="white">
-                    <h1>Welcome to our bookstore!</h1>
-                </font>
-            </td>
-        </tr>
-        <tr bgcolor="#6C48C5">
-            <td align="center">
-                <font color="white">
-                    <a href="index.html"> <font color="white"> Home  </font> </a> |
-                    <a href="cart.html"> <font color="white"> Shopping Cart </font> </a> |
-                    <a href="contacts.html"> <font color="white"> Contacts </font> </a> |
-                    <a href="categories.html"><font color="white">Categories</font></a>
-                </font>
-            </td>
-        </tr>
-    </table>
+    <div class="title">
+        <a href="register.html"  id="register"><font align="right">Login/Registration</font></a> <br>
+        Welcome to our bookstore!
+    </div>
+    <div class="container">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="openbtn">☰ Categories |</label>
+        <div class="sidenav">
+            <label for="menu-toggle" class="closebtn">×</label>
+            <span id="cat">Categories</span>
+            <a href="fiction_book.html">Fiction</a>
+            <a href="childrensbook.html">Children Books</a>
+            <a href="categories.html">All Categories</a>
+        </div>
+        <a href="cart.html" class="openbtn">  Shopping Cart  </a> |
+        <a href="contacts.html" class="openbtn"> Contacts  </a> |
+
+    </div>
+<!--    <table width="100%" bgcolor="#1230AE">-->
+<!--        <tr>-->
+<!--            <td align="center">-->
+<!--                <font color="white">-->
+<!--                    <h1>Welcome to our bookstore!</h1>-->
+<!--                </font>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr bgcolor="#6C48C5">-->
+<!--            <td align="center">-->
+<!--                <font color="white">-->
+<!--                    <a href="index.html"> <font color="white"> Home  </font> </a> |-->
+<!--                    <a href="cart.html"> <font color="white"> Shopping Cart </font> </a> |-->
+<!--                    <a href="contacts.html"> <font color="white"> Contacts </font> </a> |-->
+<!--                    <a href="categories.html"><font color="white">Categories</font></a>-->
+<!--                </font>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--    </table>-->
 </header>
 
 <!-- Bookshelf -->
 <section>
-    <h2 align="center">Popular books of today</h2>
-    <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
-        <tr bgcolor="#C68FE6">
-            <!-- B1 -->
-            <td align="center" valign="top">
-                <a href="Books/book1.html">
-                    <img src="img/dune.jpg" alt="Dune" width="100" height="150">
-                </a>
-                <h3>Dune</h3>
-                <p>Author: Frank Herbert</p>
-                <p>Price:  6,000 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
+    <h1 align="center">Popular books of today</h1>
 
-            <!-- B2 -->
-            <td align="center" valign="top">
-                <a href="Books/book2.html">
-                    <img src="img/TGWTDT.jpeg" alt="Book" width="100" height="150">
-                </a>
-                <h3>The Girl with the Dragon Tattoo</h3>
-                <p>Author: Stieg Larsson</p>
-                <p>Price: 4,500 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
+    <div id="book-container">
+        <div class="book">
+            <a href="Books/book1.html">
+                <img src="img/dune.jpg" alt="Dune" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">6,000 KZT</span> <br>
+            <span class="name">Dune</span> <br>
+            <span class="author">Frank Herbert</span><br>
+        </div>
+        <div class="book">
+            <a href="Books/book2.html">
+                <img src="img/TGWTDT.jpeg" alt="The Girl with the Dragon Tattoo" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">4,500 KZT</span> <br>
+            <span class="name">The Girl with the Dragon Tattoo</span> <br>
+            <span class="author">Stieg Larsson</span><br>
+        </div>
+        <div class="book">
+            <a href="Books/book3.html">
+                <img src="img/PnP.jpg" alt="Pride and Prejudice" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">3,500 KZT</span> <br>
+            <span class="name">Pride and Prejudice</span> <br>
+            <span class="author">Jane Austen</span><br>
+        </div>
+        <div class="book">
+            <a href="Books/book4.html">
+                <img src="img/necro.jpg" alt="Neuromancer" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">5,500 KZT</span> <br>
+            <span class="name">Neuromancer</span> <br>
+            <span class="author">William Gibson</span><br>
+        </div>
+        <div class="book">
+            <a href="Books/book5.html">
+                <img src="img/shining.webp" alt="The Shining" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">4,000 KZT</span> <br>
+            <span class="name">The Shining</span> <br>
+            <span class="author">Stephen King</span><br>
+        </div>
+        <div class="book">
+            <a href="Books/book6.html">
+                <img src="img/ATLWCS.jpeg" alt="All the Light We Cannot See" width="12.5%" height="100%">
+            </a> <br>
+            <span class="price">4,800 KZT</span> <br>
+            <span class="name">All the Light We Cannot See</span> <br>
+            <span class="author">Anthony Doerr</span><br>
+        </div>
+    </div>
 
-            <!-- B3 -->
-            <td align="center" valign="top">
-                <a href="Books/book3.html">
-                    <img src="img/PnP.jpg" alt="Book" width="100" height="150">
-                </a>
-                <h3>Pride and Prejudice</h3>
-                <p>Author: Jane Austen</p>
-                <p>Price: 3,500 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
-        </tr>
+<!--    <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">-->
+<!--        <tr bgcolor="#C68FE6">-->
+<!--            &lt;!&ndash; B1 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book1.html">-->
+<!--                    <img src="img/dune.jpg" alt="Dune" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>Dune</h3>-->
+<!--                <p>Author: Frank Herbert</p>-->
+<!--                <p>Price:  6,000 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
 
-        <!-- 2 Shelf -->
-        <tr bgcolor="#C68FE6">
-            <!-- B4 -->
-            <td align="center" valign="top">
-                <a href="Books/book4.html">
-                    <img src="img/necro.jpg" alt="Book" width="100" height="150">
-                </a>
-                <h3>Neuromancer</h3>
-                <p>Author: William Gibson</p>
-                <p>Price: 5,500 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
+<!--            &lt;!&ndash; B2 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book2.html">-->
+<!--                    <img src="img/TGWTDT.jpeg" alt="Book" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>The Girl with the Dragon Tattoo</h3>-->
+<!--                <p>Author: Stieg Larsson</p>-->
+<!--                <p>Price: 4,500 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
 
-            <!-- B5 -->
-            <td align="center" valign="top">
-                <a href="Books/book5.html">
-                    <img src="img/shining.webp" alt="Book" width="100" height="150">
-                </a>
-                <h3>The Shining</h3>
-                <p>Author: Stephen King</p>
-                <p>Price:  4,000 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
+<!--            &lt;!&ndash; B3 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book3.html">-->
+<!--                    <img src="img/PnP.jpg" alt="Book" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>Pride and Prejudice</h3>-->
+<!--                <p>Author: Jane Austen</p>-->
+<!--                <p>Price: 3,500 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
+<!--        </tr>-->
 
-            <!-- B6 -->
-            <td align="center" valign="top">
-                <a href="Books/book6.html">
-                    <img src="img/ATLWCS.jpeg" alt="Book" width="100" height="150">
-                </a>
-                <h3>All the Light We Cannot See</h3>
-                <p>Author: Anthony Doerr</p>
-                <p>Price: 4,800 KZT</p>
-                <a href="cart.html">Add to cart</a>
-            </td>
-        </tr>
-    </table>
+<!--        &lt;!&ndash; 2 Shelf &ndash;&gt;-->
+<!--        <tr bgcolor="#C68FE6">-->
+<!--            &lt;!&ndash; B4 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book4.html">-->
+<!--                    <img src="img/necro.jpg" alt="Book" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>Neuromancer</h3>-->
+<!--                <p>Author: William Gibson</p>-->
+<!--                <p>Price: 5,500 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
+
+<!--            &lt;!&ndash; B5 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book5.html">-->
+<!--                    <img src="img/shining.webp" alt="Book" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>The Shining</h3>-->
+<!--                <p>Author: Stephen King</p>-->
+<!--                <p>Price:  4,000 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
+
+<!--            &lt;!&ndash; B6 &ndash;&gt;-->
+<!--            <td align="center" valign="top">-->
+<!--                <a href="Books/book6.html">-->
+<!--                    <img src="img/ATLWCS.jpeg" alt="Book" width="100" height="150">-->
+<!--                </a>-->
+<!--                <h3>All the Light We Cannot See</h3>-->
+<!--                <p>Author: Anthony Doerr</p>-->
+<!--                <p>Price: 4,800 KZT</p>-->
+<!--                <a href="cart.html">Add to cart</a>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--    </table>-->
 </section>
+
+
 
 <!-- Foot -->
 <footer><br>
