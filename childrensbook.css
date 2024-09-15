@@ -1,0 +1,102 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7F7;
+}
+
+/* Header styling */
+#header-section {
+    background-color: #57CC99;
+    padding: 20px;
+    text-align: center;
+}
+
+#header-title h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Navigation styling */
+#navbar .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #38A3A5;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Book section */
+#book-section, #popular-books {
+    padding: 20px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+    width: 60%;
+}
+
+.book-image img {
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Add to cart button */
+.add-to-cart-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #38A3A5;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #2B8287;
+}
+
+/* Footer styling */
+#footer-section {
+    background-color: #57CC99;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#footer-content p {
+    margin: 0;
+}

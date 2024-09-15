@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Children's Books</title>
+  <link rel="stylesheet" href="childrensbook.css">
+  <link rel="stylesheet" href="css/Head.css">
+
+<style>
+        body{
+            background: #C7F9CC;
+        }
+        header{
+            width: 100%;
+        }
+
+        footer{
+            color:white;
+            background: #57CC99;
+            height: 80px;
+        }
+    </style>
 </head>
-<body bgcolor="#FFF7F7">
 
+<body>
 
-<header>
-  <table width="100%" bgcolor="#1230AE">
-    <tr>
-      <td align="center">
-        <font color="white">
-          <h1>Children's Bookstore</h1>
-        </font>
-      </td>
-    </tr>
-    <tr bgcolor="#6C48C5">
-      <td align="center">
-        <font color="white">
-          <a href="index.html">Home </a> |
-          <a href="cart.html">Shopping Cart</a> |
-          <a href="contacts.html">Contacts</a>
-        </font>
-      </td>
-    </tr>
-  </table>
+<header id="header-section">
+  <<div class="title">
+    <a href="register.html"  id="register"><font align="right">Login/Registration</font></a> <br>
+    Welcome to our bookstore!
+  </div>
+  <div class="container">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="openbtn">☰ Categories |</label>
+    <div class="sidenav">
+      <label for="menu-toggle" class="closebtn">×</label>
+      <span id="cat">Categories</span>
+      <a href="fiction_book.html">Fiction</a>
+      <a href="childrensbook.html">Children Books</a>
+      <a href="categories.html">All Categories</a>
+    </div>
+    <a href="cart.html" class="openbtn">  Shopping Cart  </a> |
+    <a href="contacts.html" class="openbtn"> Contacts  </a> |
+    <a href="index.html" class="openbtn"> Main page  </a> |
+
+  </div>
 </header>
 
-
-<section>
-  <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
-    <tr>
-      
-      <td align="center" valign="top" width="30%">
-        <img src="https://ab-content.learningally.org/siteContent/bkimages/detail/NB033.jpg" alt="Book" width="200" height="300">
-      </td>
-
-      <
-      <td align="left" valign="top">
-        <h2>Books for (5+ years)</h2>
-        <p><b>Book:</b> The Adventures of Tom Sawyer and Huckleberry Finn</p>
-        <p><b>Author:</b> Mark Twain</p>
-        <p><b>Description:</b> The main idea of The Adventures of Tom Sawyer is that boyhood is a time of great adventure.</p>
-        <p><b>Price:</b> $10</p>
-        <p><b>Score:</b> 4.8/5</p>
-        <p>
-          <b>Reviews:</b>
+<section id="book-section">
+  <div class="book-container">
+    <div class="book-image">
+      <img src="https://ab-content.learningally.org/siteContent/bkimages/detail/NB033.jpg" alt="Book" width="200" height="300">
+    </div>
+    <div class="book-info">
+      <h2>Books for (5+ years)</h2>
+      <p><b>Book:</b> The Adventures of Tom Sawyer and Huckleberry Finn</p>
+      <p><b>Author:</b> Mark Twain</p>
+      <p><b>Description:</b> The main idea of The Adventures of Tom Sawyer is that boyhood is a time of great adventure.</p>
+      <p><b>Price:</b> $10</p>
+      <p><b>Score:</b> 4.8/5</p>
+      <p>
+        <b>Reviews:</b>
         <ul>
           <li>User1: My baby loves this book!</li>
           <li>User2: Great illustrations and simple story.</li>
           <li>User3: Perfect for bedtime.</li>
         </ul>
-        </p>
-        <a href="cart.html">ADD TO CART</a>
-      </td>
-    </tr>
-  </table>
+      </p>
+      <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
+    </div>
+  </div>
 </section>
 
-
-<section>
-  <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
-    <tr>
-      <!-- Book photo -->
-      <td align="center" valign="top" width="30%">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/61lE5qphTeL.jpg" alt="Popular Book" width="200" height="300">
-      </td>
-
-      
-      <td align="left" valign="top">
-        <h2>Popular Children's Books</h2>
-        <p><b>Book:</b> The Magic Tree House</p>
-        <p><b>Author:</b> Mary Pope Osborne</p>
-        <p><b>Description:</b> A magical adventure that takes children through enchanted forests.</p>
-        <p><b>Price:</b> $12</p>
-        <p><b>Score:</b> 4.9/5</p>
-        <p>
-          <b>Reviews:</b>
+<section id="popular-books">
+  <div class="book-container">
+    <div class="book-image">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/61lE5qphTeL.jpg" alt="Popular Book" width="200" height="300">
+    </div>
+    <div class="book-info">
+      <h2>Popular Children's Books</h2>
+      <p><b>Book:</b> The Magic Tree House</p>
+      <p><b>Author:</b> Mary Pope Osborne</p>
+      <p><b>Description:</b> A magical adventure that takes children through enchanted forests.</p>
+      <p><b>Price:</b> $12</p>
+      <p><b>Score:</b> 4.9/5</p>
+      <p>
+        <b>Reviews:</b>
         <ul>
           <li>User1: A classic! My kids were hooked.</li>
           <li>User2: Engaging and beautifully written.</li>
           <li>User3: We read this every night!</li>
         </ul>
-        </p>
-        <a href="cart.html">ADD TO CART</a>
-      </td>
-    </tr>
-  </table>
+      </p>
+      <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
+    </div>
+  </div>
 </section>
 
-
-<footer>
-  <table width="100%" bgcolor="#1230AE">
-    <tr>
-      <td align="center">
-        <font color="white">
-          <p>Contact info: Email - ulanbakytbekov@gmail.com | Phone: +77079877684</p>
-        </font>
-      </td>
-    </tr>
-  </table>
+<footer id="footer-section">
+  <div id="footer-content">
+    <p>Contact info: Email - ulanbakytbekov@gmail.com | Phone: +77079877684</p>
+  </div>
 </footer>
 
 </body>
+
 </html>

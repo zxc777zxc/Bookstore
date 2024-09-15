@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Regestration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
 
-	<div id="reg">
-		<div id="text">Registration</div>
-		<br>
-		<form>
-			<input type="text" name="first_name" placeholder="Name">
-			<input type="text" name="last_name" placeholder="Last Name">
-			<br><br>
-			<input type="email" name="email" placeholder="E-mail">
-			<br><br>
-			<input type="text" name="phone" placeholder="Phone Number">
-			<br><br>
-			<input type="password" name="password" placeholder="Password" minlength="8">
-			<br><br>
-			<input type="password" name="confirm_password" placeholder="Re-enter Password" minlength="8">
-			<br><br>
-			<input type="submit" value="Register">
-		</form>
-	</div>
+    <!-- Header section with navigation -->
+    <header id="header-section">
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="form-container">
+        <div class="form-heading">Registration</div>
+        <form id="registration-form">
+            <input type="text" name="first_name" class="form-input" placeholder="Name">
+            <input type="text" name="last_name" class="form-input" placeholder="Last Name">
+            <br><br>
+            <input type="email" name="email" class="form-input" placeholder="E-mail">
+            <br><br>
+            <input type="text" name="phone" class="form-input" placeholder="Phone Number">
+            <br><br>
+            <input type="password" name="password" class="form-input" placeholder="Password" minlength="8">
+            <br><br>
+            <input type="password" name="confirm_password" class="form-input" placeholder="Re-enter Password" minlength="8">
+            <br><br>
+            <input type="submit" value="Register" class="submit-btn">
+        </form>
+    </div>
 
 </body>
 </html>
