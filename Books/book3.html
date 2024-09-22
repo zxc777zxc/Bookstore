@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pride and Prejudice</title>
-  <link rel="stylesheet" href="../css/Head.css">
-  <link rel="stylesheet" href="../css/shoping.css">
+  <title>Dune</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
   <style>
     body{
-      background: #C7F9CC;
+      background-image:url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     }
     header{
       width: 100%;
@@ -19,14 +17,13 @@
 
     footer{
       color:white;
-      background: #57CC99;
       height: 80px;
     }
   </style>
-</head>
-<body bgcolor="#FFF7F7">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
+</head>
+<body >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Title -->
 <header>
@@ -69,34 +66,34 @@
 </header>
 
 <!-- Book info -->
-<section>
-  <div id="container">
-    <div id="img">
-      <img src="../img/PnP.jpg"  width="66%" height="100%">
-    </div>
-    <div id="description">
-      A classic romantic novel set in early 19th-century England, focusing on the headstrong Elizabeth Bennet and her evolving relationship with the wealthy and aloof Mr. Darcy, exploring themes of love, class, and social expectations.</p>
-      <br><br><br>
-      <span>
-        Pride and Prejudice<br>
-        Author: Jane Austen
-      </span>
 
+<div class="container">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img src="../img/PnP.jpg" class="img-thumbnail" alt="Dune cover" style="width: 100%; height: auto;">
     </div>
-    <div id="buy">
-      <b1>3,500 KZT</b1><br>
-      <a href="../cart.html" id="button">
-        Buy Now
-      </a>
-
-
+    <div class="col-md-8 align-self-center">
+      <div class="card w-100 mb-3 text-bg-dark">
+        <div class="card-body">
+          <h5 class="card-title"> Pride and Prejudice by Jane Austen</h5>
+          <p class="card-text">
+            A classic romantic novel set in early 19th-century England, focusing on the headstrong Elizabeth Bennet and her evolving relationship with the wealthy and aloof Mr. Darcy, exploring themes of love, class, and social expectations.
+          </p>
+          <button type="button" class="btn btn-outline-success">4500 KZT</button>
+          <a href="../cart.html" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
     </div>
+
   </div>
+</div>
 
-</section>
+
+
+
 
 <!-- Footer -->
-<footer><br>
+<footer class="bg-dark"><br>
   <p align="center">Group: SE-2302<br>
     Team members: Muhamedali Kuanysh, Ulan Bakytbekov, Askat Narinbetov</p>
 </footer>
