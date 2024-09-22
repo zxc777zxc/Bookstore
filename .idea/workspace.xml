@@ -4,8 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="added new page with css">
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="CSS main page update">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_09_2024_15_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_09_2024_15_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_2024_20_07_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_09_2024_20_07__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/book3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/childrensbook.css" beforeDir="false" afterPath="$PROJECT_DIR$/childrensbook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/childrensbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/childrensbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shoping.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shoping.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiction_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genre_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/genre_quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/register.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,9 @@
     &quot;assignee&quot;: &quot;zxc777zxc&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0b42cec2-7238-4bdf-8855-2acffebd7b04" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,
@@ -66,11 +90,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Аскат Наринбетов\WebstormProjects\Book-Store\css" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,6 +115,13 @@
       <workItem from="1726218461453" duration="476000" />
       <workItem from="1726222767197" duration="22000" />
       <workItem from="1726386673214" duration="6488000" />
+      <workItem from="1726563591782" duration="89000" />
+      <workItem from="1726564347250" duration="148000" />
+      <workItem from="1726564827372" duration="412000" />
+      <workItem from="1726566520949" duration="5722000" />
+      <workItem from="1726826032521" duration="1565000" />
+      <workItem from="1727014709611" duration="179000" />
+      <workItem from="1727019324371" duration="2328000" />
     </task>
     <task id="LOCAL-00001" summary="Book page temp">
       <option name="closed" value="true" />
@@ -113,55 +139,7 @@
       <option name="project" value="LOCAL" />
       <updated>1726390352998</updated>
     </task>
-    <task id="LOCAL-00003" summary="fda">
-      <option name="closed" value="true" />
-      <created>1726416799857</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726416799857</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added css to contacts">
-      <option name="closed" value="true" />
-      <created>1726416917218</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726416917218</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added css">
-      <option name="closed" value="true" />
-      <created>1726417032031</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726417032031</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added css">
-      <option name="closed" value="true" />
-      <created>1726419459390</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726419459390</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added new page with css">
-      <option name="closed" value="true" />
-      <created>1726421466596</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726421466596</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added new page with css">
-      <option name="closed" value="true" />
-      <created>1726422685960</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1726422685960</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,10 +148,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Book page temp" />
     <MESSAGE value="CSS main page update" />
-    <MESSAGE value="fda" />
-    <MESSAGE value="added css to contacts" />
-    <MESSAGE value="added css" />
-    <MESSAGE value="added new page with css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new page with css" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS main page update" />
   </component>
 </project>

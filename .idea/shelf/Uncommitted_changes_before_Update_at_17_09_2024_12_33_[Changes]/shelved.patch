@@ -1,0 +1,862 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48__Changes_.xml	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]" date="1725810546371" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08.09.2024 20:48 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,116 +0,0 @@
+-Index: categories.html
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/categories.html b/categories.html
+-new file mode 100644
+---- /dev/null	(date 1725803635724)
+-+++ b/categories.html	(date 1725803635724)
+-@@ -0,0 +1,10 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <title>Title</title>
+-+</head>
+-+<body>
+-+
+-+</body>
+-+</html>
+-\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"zxc777zxc\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/zxc777zxc/Bookstore.git\",\r\n    \"accountId\": \"0b42cec2-7238-4bdf-8855-2acffebd7b04\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lh1vQ3Ubn9jyHGTp4WF9qk4uut\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"JavaScript Debug.book1.html.executor\": \"Run\",\r\n    \"JavaScript Debug.index.html.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\" />\r\n      <created>1725617725526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725617725526</updated>\r\n      <workItem from=\"1725617726810\" duration=\"41000\" />\r\n      <workItem from=\"1725618487550\" duration=\"2000\" />\r\n      <workItem from=\"1725618590304\" duration=\"31000\" />\r\n      <workItem from=\"1725747850352\" duration=\"3580000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 0cdc81c1c8c1bc5c574fa111f29d33a24f4871d4)
+-+++ b/.idea/workspace.xml	(date 1725803635895)
+-@@ -4,7 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="">
+-+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Fixed a little bit">
+-+      <change afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -22,16 +23,16 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+--  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+--  "lastFilter": {
+--    "state": "OPEN",
+--    "assignee": "zxc777zxc"
+-+  <component name="GitHubPullRequestSearchHistory">{
+-+  &quot;lastFilter&quot;: {
+-+    &quot;state&quot;: &quot;OPEN&quot;,
+-+    &quot;assignee&quot;: &quot;zxc777zxc&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="GithubPullRequestsUISettings"><![CDATA[{
+-   "selectedUrlAndAccountId": {
+-     "url": "https://github.com/zxc777zxc/Bookstore.git",
+--    "accountId": "0b42cec2-7238-4bdf-8855-2acffebd7b04"
+-+    "accountId": "255768b4-d97e-4571-8a70-44e243a828c6"
+-   }
+- }]]></component>
+-   <component name="ProjectColorInfo">{
+-@@ -55,6 +56,7 @@
+-     "node.js.selected.package.eslint": "(autodetect)",
+-     "node.js.selected.package.tslint": "(autodetect)",
+-     "nodejs_package_manager_path": "npm",
+-+    "settings.editor.selected.configurable": "web-ide.project.structure",
+-     "vue.rearranger.settings.migration": "true"
+-   }
+- }]]></component>
+-@@ -77,10 +79,42 @@
+-       <workItem from="1725618487550" duration="2000" />
+-       <workItem from="1725618590304" duration="31000" />
+-       <workItem from="1725747850352" duration="3580000" />
+-+      <workItem from="1725769751833" duration="11261000" />
+-+    </task>
+-+    <task id="LOCAL-00001" summary="Started to create page for contacts">
+-+      <option name="closed" value="true" />
+-+      <created>1725777174958</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725777174958</updated>
+-+    </task>
+-+    <task id="LOCAL-00002" summary="Added Email, phone and social medias. I might change a few thing here later">
+-+      <option name="closed" value="true" />
+-+      <created>1725782156651</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725782156651</updated>
+-     </task>
+-+    <task id="LOCAL-00003" summary="Fixed a little bit">
+-+      <option name="closed" value="true" />
+-+      <created>1725790971529</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725790971529</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="4" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-   </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="Started to create page for contacts" />
+-+    <MESSAGE value="Added Email, phone and social medias. I might change a few thing here later" />
+-+    <MESSAGE value="Fixed a little bit" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a little bit" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04__Changes_.xml	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]" date="1725807904186" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08.09.2024 20:04 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45__Changes_.xml	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]" date="1725810413605" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08.09.2024 20:45 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53__Changes_.xml	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]" date="1725803641505" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_18_53_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 08.09.2024 18:53 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_04_[Changes]/shelved.patch	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,265 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"zxc777zxc\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/zxc777zxc/Bookstore.git\",\r\n    \"accountId\": \"0b42cec2-7238-4bdf-8855-2acffebd7b04\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lh1vQ3Ubn9jyHGTp4WF9qk4uut\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"JavaScript Debug.book1.html.executor\": \"Run\",\r\n    \"JavaScript Debug.index.html.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\" />\r\n      <created>1725617725526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725617725526</updated>\r\n      <workItem from=\"1725617726810\" duration=\"41000\" />\r\n      <workItem from=\"1725618487550\" duration=\"2000\" />\r\n      <workItem from=\"1725618590304\" duration=\"31000\" />\r\n      <workItem from=\"1725747850352\" duration=\"3580000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 51008a07bb16e1ade48ce7d865308d7dc05d991c)
+-+++ b/.idea/workspace.xml	(date 1725807524989)
+-@@ -4,8 +4,11 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="">
+-+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Added transitions to other pages in categories">
+-+      <change afterPath="$PROJECT_DIR$/fiction_book.html" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -22,18 +25,18 @@
+-   <component name="Git.Settings">
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+--  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+--  "lastFilter": {
+--    "state": "OPEN",
+--    "assignee": "zxc777zxc"
+-+  <component name="GitHubPullRequestSearchHistory">{
+-+  &quot;lastFilter&quot;: {
+-+    &quot;state&quot;: &quot;OPEN&quot;,
+-+    &quot;assignee&quot;: &quot;zxc777zxc&quot;
+-   }
+--}]]></component>
+--  <component name="GithubPullRequestsUISettings"><![CDATA[{
+--  "selectedUrlAndAccountId": {
+--    "url": "https://github.com/zxc777zxc/Bookstore.git",
+--    "accountId": "0b42cec2-7238-4bdf-8855-2acffebd7b04"
+-+}</component>
+-+  <component name="GithubPullRequestsUISettings">{
+-+  &quot;selectedUrlAndAccountId&quot;: {
+-+    &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,
+-+    &quot;accountId&quot;: &quot;255768b4-d97e-4571-8a70-44e243a828c6&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="ProjectColorInfo">{
+-   &quot;associatedIndex&quot;: 2
+- }</component>
+-@@ -43,21 +46,22 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "DefaultHtmlFileTemplate": "HTML File",
+--    "JavaScript Debug.book1.html.executor": "Run",
+--    "JavaScript Debug.index.html.executor": "Run",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "git-widget-placeholder": "master",
+--    "node.js.detected.package.eslint": "true",
+--    "node.js.detected.package.tslint": "true",
+--    "node.js.selected.package.eslint": "(autodetect)",
+--    "node.js.selected.package.tslint": "(autodetect)",
+--    "nodejs_package_manager_path": "npm",
+--    "vue.rearranger.settings.migration": "true"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-+    &quot;JavaScript Debug.book1.html.executor&quot;: &quot;Run&quot;,
+-+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+-+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="SharedIndexes">
+-     <attachedChunks>
+-       <set>
+-@@ -77,10 +81,60 @@
+-       <workItem from="1725618487550" duration="2000" />
+-       <workItem from="1725618590304" duration="31000" />
+-       <workItem from="1725747850352" duration="3580000" />
+-+      <workItem from="1725769751833" duration="15110000" />
+-     </task>
+-+    <task id="LOCAL-00001" summary="Started to create page for contacts">
+-+      <option name="closed" value="true" />
+-+      <created>1725777174958</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725777174958</updated>
+-+    </task>
+-+    <task id="LOCAL-00002" summary="Added Email, phone and social medias. I might change a few thing here later">
+-+      <option name="closed" value="true" />
+-+      <created>1725782156651</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725782156651</updated>
+-+    </task>
+-+    <task id="LOCAL-00003" summary="Fixed a little bit">
+-+      <option name="closed" value="true" />
+-+      <created>1725790971529</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725790971529</updated>
+-+    </task>
+-+    <task id="LOCAL-00004" summary="Added categories">
+-+      <option name="closed" value="true" />
+-+      <created>1725803943378</created>
+-+      <option name="number" value="00004" />
+-+      <option name="presentableId" value="LOCAL-00004" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725803943378</updated>
+-+    </task>
+-+    <task id="LOCAL-00005" summary="Added transitions to other pages in categories">
+-+      <option name="closed" value="true" />
+-+      <created>1725804272479</created>
+-+      <option name="number" value="00005" />
+-+      <option name="presentableId" value="LOCAL-00005" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725804272479</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="6" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-   </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="Started to create page for contacts" />
+-+    <MESSAGE value="Added Email, phone and social medias. I might change a few thing here later" />
+-+    <MESSAGE value="Fixed a little bit" />
+-+    <MESSAGE value="Added categories" />
+-+    <MESSAGE value="Added transitions to other pages in categories" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Added transitions to other pages in categories" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+-Index: fiction_book.html
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/fiction_book.html b/fiction_book.html
+-new file mode 100644
+---- /dev/null	(date 1725806910621)
+-+++ b/fiction_book.html	(date 1725806910621)
+-@@ -0,0 +1,104 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Children's Books</title>
+-+</head>
+-+<body bgcolor="#FFF7F7">
+-+<header>
+-+    <table width="100%" bgcolor="#1230AE">
+-+        <tr>
+-+            <td align="center">
+-+                <font color="white">
+-+                    <h1>Fiction Bookstore</h1>
+-+                </font>
+-+            </td>
+-+        </tr>
+-+        <tr bgcolor="#6C48C5">
+-+            <td align="center">
+-+                <font color="white">
+-+                    <a href="index.html">Home </a> |
+-+                    <a href="cart.html">Shopping Cart</a> |
+-+                    <a href="contacts.html">Contacts</a> |
+-+                    <a href="categories.html"><font color="white"> Categories</font></a>
+-+                </font>
+-+            </td>
+-+        </tr>
+-+    </table>
+-+</header>
+-+
+-+
+-+<section>
+-+    <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
+-+        <tr>
+-+            <td align="center" valign="top" width="30%">
+-+                <img src="baby_book.jpg" alt="Book" width="200" height="300">
+-+            </td>
+-+            <td align="left" valign="top">
+-+                <h2>Books for </h2>
+-+                <p><b>Book:</b> Crime and Punishment</p>
+-+                <p><b>Author:</b> Fyodor Dostoevsky</p>
+-+                <p><b>Description:</b> A fun and colorful book perfect for babies and toddlers.</p>
+-+                <p><b>Price:</b> $13.99</p>
+-+                <p><b>Score:</b> 4.27/5</p>
+-+                <p>
+-+                    <b>Reviews:</b>
+-+                <ul>
+-+                    <li>User1: I finally said my goodbyes to this book. It was the best piece I've ever read.</li>
+-+                    <li>User2: Writing this was a crime and reading it was a punishment.</li>
+-+                    <li>User3: What a sensational reading experience, what an unconditional surrender to an atmosphere of fear, anxiety and confusion - and to an epic battle of wills!</li>
+-+                </ul>
+-+                </p>
+-+                <a href="cart.html">ADD TO CART</a>
+-+            </td>
+-+        </tr>
+-+    </table>
+-+</section>
+-+
+-+
+-+<section>
+-+    <table border="1" width="100%" cellpadding="10" cellspacing="0" bgcolor="#FFF7F7">
+-+        <tr>
+-+            <!-- Book photo -->
+-+            <td align="center" valign="top" width="30%">
+-+                <img src="popular_book.jpg" alt="Popular Book" width="200" height="300">
+-+            </td>
+-+
+-+
+-+            <td align="left" valign="top">
+-+                <h2>Popular Children's Books</h2>
+-+                <p><b>Book:</b> The Magic Tree</p>
+-+                <p><b>Author:</b> Jane Smith</p>
+-+                <p><b>Description:</b> A magical adventure that takes children through enchanted forests.</p>
+-+                <p><b>Price:</b> $12</p>
+-+                <p><b>Score:</b> 4.9/5</p>
+-+                <p>
+-+                    <b>Reviews:</b>
+-+                <ul>
+-+                    <li>User1: A classic! My kids were hooked.</li>
+-+                    <li>User2: Engaging and beautifully written.</li>
+-+                    <li>User3: We read this every night!</li>
+-+                </ul>
+-+                </p>
+-+                <a href="cart.html">ADD TO CART</a>
+-+            </td>
+-+        </tr>
+-+    </table>
+-+</section>
+-+
+-+
+-+<footer>
+-+    <table width="100%" bgcolor="#1230AE">
+-+        <tr>
+-+            <td align="center">
+-+                <font color="white">
+-+                    <p>Contact info: Email - ulanbakytbekov@gmail.com | Phone: +77079877684</p>
+-+                </font>
+-+            </td>
+-+        </tr>
+-+    </table>
+-+</footer>
+-+
+-+</body>
+-+</html>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_45_[Changes]/shelved.patch	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,283 +0,0 @@
+-Index: index.html
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Bookstore</title>\r\n</head>\r\n<body bgcolor=\"#FFF7F7\">\r\n\r\n<!--Header-title -->\r\n<header>\r\n    <table width=\"100%\" bgcolor=\"#1230AE\">\r\n        <tr>\r\n            <td align=\"center\">\r\n                <font color=\"white\">\r\n                    <h1>Welcome to our bookstore!</h1>\r\n                </font>\r\n            </td>\r\n        </tr>\r\n        <tr bgcolor=\"#6C48C5\">\r\n            <td align=\"center\">\r\n                <font color=\"white\">\r\n                    <a href=\"index.html\"> <font color=\"white\"> Home  </font> </a> |\r\n                    <a href=\"cart.html\"> <font color=\"white\"> Shopping Cart </font> </a> |\r\n                    <a href=\"contacts.html\"> <font color=\"white\"> Contacts </font> </a> |\r\n                    <a href=\"categories.html\"><font color=\"white\">Categories</font></a>\r\n                </font>\r\n            </td>\r\n        </tr>\r\n    </table>\r\n</header>\r\n\r\n<!-- Bookshelf -->\r\n<section>\r\n    <h2 align=\"center\">Popular books of today</h2>\r\n    <table border=\"1\" width=\"100%\" cellpadding=\"10\" cellspacing=\"0\" bgcolor=\"#FFF7F7\">\r\n        <tr bgcolor=\"#C68FE6\">\r\n            <!-- B1 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n\r\n            <!-- B2 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n\r\n            <!-- B3 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n        </tr>\r\n\r\n        <!-- 2 Shelf -->\r\n        <tr bgcolor=\"#C68FE6\">\r\n            <!-- B4 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n\r\n            <!-- B5 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n\r\n            <!-- B6 -->\r\n            <td align=\"center\" valign=\"top\">\r\n                <a href=\"book.html\">\r\n                    <img src=\"book.jpg\" alt=\"Book\" width=\"100\" height=\"150\">\r\n                </a>\r\n                <h3>Book name</h3>\r\n                <p>Author: Name</p>\r\n                <p>Price: number</p>\r\n                <a href=\"cart.html\">Add to cart</a>\r\n            </td>\r\n        </tr>\r\n    </table>\r\n</section>\r\n\r\n<!-- Foot -->\r\n<footer>\r\n    <table width=\"100%\" bgcolor=\"#1230AE\">\r\n        <tr>\r\n            <td align=\"center\">\r\n                <font color=\"white\">\r\n                    <p>Contact</p>\r\n                </font>\r\n            </td>\r\n        </tr>\r\n    </table>\r\n</footer>\r\n\r\n</body>\r\n</html>\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/index.html b/index.html
+---- a/index.html	(revision 1483d41b2dda8ac27ab891649b8851694c1889c5)
+-+++ b/index.html	(date 1725810280385)
+-@@ -37,34 +37,34 @@
+-         <tr bgcolor="#C68FE6">
+-             <!-- B1 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book1.html">
+-+                    <img src="img/dune.jpg" alt="Dune" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>Dune</h3>
+-+                <p>Author: Frank Herbert</p>
+-+                <p>Price:  6,000 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+- 
+-             <!-- B2 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book2.html">
+-+                    <img src="img/TGWTDT.jpeg" alt="Book" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>The Girl with the Dragon Tattoo</h3>
+-+                <p>Author: Stieg Larsson</p>
+-+                <p>Price: 4,500 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+- 
+-             <!-- B3 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book3.html">
+-+                    <img src="img/PnP.jpg" alt="Book" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>Pride and Prejudice</h3>
+-+                <p>Author: Jane Austen</p>
+-+                <p>Price: 3,500 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+-         </tr>
+-@@ -73,34 +73,34 @@
+-         <tr bgcolor="#C68FE6">
+-             <!-- B4 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book4.html">
+-+                    <img src="img/necro.jpg" alt="Book" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>Neuromancer</h3>
+-+                <p>Author: William Gibson</p>
+-+                <p>Price: 5,500 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+- 
+-             <!-- B5 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book5.html">
+-+                    <img src="img/shining.webp" alt="Book" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>The Shining</h3>
+-+                <p>Author: Stephen King</p>
+-+                <p>Price:  4,000 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+- 
+-             <!-- B6 -->
+-             <td align="center" valign="top">
+--                <a href="book.html">
+--                    <img src="book.jpg" alt="Book" width="100" height="150">
+-+                <a href="Books/book6.html">
+-+                    <img src="img/ATLWCS.jpeg" alt="Book" width="100" height="150">
+-                 </a>
+--                <h3>Book name</h3>
+--                <p>Author: Name</p>
+--                <p>Price: number</p>
+-+                <h3>All the Light We Cannot See</h3>
+-+                <p>Author: Anthony Doerr</p>
+-+                <p>Price: 4,800 KZT</p>
+-                 <a href="cart.html">Add to cart</a>
+-             </td>
+-         </tr>
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"Book page temp\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/book1.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/book1.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cart.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cart.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/categories.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/categories.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/childrensbook.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/childrensbook.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/contacts.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/contacts.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/register.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/register.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;zxc777zxc&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubDefaultAccount\">\r\n    <option name=\"defaultAccountId\" value=\"0b42cec2-7238-4bdf-8855-2acffebd7b04\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,\r\n    &quot;accountId&quot;: &quot;0b42cec2-7238-4bdf-8855-2acffebd7b04&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lh1vQ3Ubn9jyHGTp4WF9qk4uut\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"JavaScript Debug.book1.html.executor\": \"Run\",\r\n    \"JavaScript Debug.categories.html.executor\": \"Run\",\r\n    \"JavaScript Debug.childrensbook.html.executor\": \"Run\",\r\n    \"JavaScript Debug.index.html.executor\": \"Run\",\r\n    \"JavaScript Debug.register.html.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\" />\r\n      <created>1725617725526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725617725526</updated>\r\n      <workItem from=\"1725617726810\" duration=\"41000\" />\r\n      <workItem from=\"1725618487550\" duration=\"2000\" />\r\n      <workItem from=\"1725618590304\" duration=\"31000\" />\r\n      <workItem from=\"1725747850352\" duration=\"3618000\" />\r\n      <workItem from=\"1725752544292\" duration=\"143000\" />\r\n      <workItem from=\"1725806250920\" duration=\"703000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Book page temp\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725752476555</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725752476555</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Book page temp\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Book page temp\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 1483d41b2dda8ac27ab891649b8851694c1889c5)
+-+++ b/.idea/workspace.xml	(date 1725810280742)
+-@@ -4,15 +4,10 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Book page temp">
+-+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="cart">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/book1.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/childrensbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/childrensbook.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/book_temp.html" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -48,7 +43,9 @@
+-   &quot;associatedIndex&quot;: 2
+- }</component>
+-   <component name="ProjectId" id="2lh1vQ3Ubn9jyHGTp4WF9qk4uut" />
+--  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-+    <ConfirmationsSetting value="1" id="Add" />
+-+  </component>
+-   <component name="ProjectViewState">
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-@@ -63,6 +60,7 @@
+-     "JavaScript Debug.register.html.executor": "Run",
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-     "git-widget-placeholder": "master",
+-+    "last_opened_file_path": "C:/Users/M/WebstormProjects/Bookstore/Books",
+-     "node.js.detected.package.eslint": "true",
+-     "node.js.detected.package.tslint": "true",
+-     "node.js.selected.package.eslint": "(autodetect)",
+-@@ -72,6 +70,11 @@
+-     "vue.rearranger.settings.migration": "true"
+-   }
+- }]]></component>
+-+  <component name="RecentsManager">
+-+    <key name="CopyFile.RECENT_KEYS">
+-+      <recent name="C:\Users\M\WebstormProjects\Bookstore\Books" />
+-+    </key>
+-+  </component>
+-   <component name="SharedIndexes">
+-     <attachedChunks>
+-       <set>
+-@@ -92,7 +95,7 @@
+-       <workItem from="1725618590304" duration="31000" />
+-       <workItem from="1725747850352" duration="3618000" />
+-       <workItem from="1725752544292" duration="143000" />
+--      <workItem from="1725806250920" duration="703000" />
+-+      <workItem from="1725806250920" duration="3992000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="Book page temp">
+-       <option name="closed" value="true" />
+-@@ -102,14 +105,43 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1725752476555</updated>
+-     </task>
+--    <option name="localTasksCounter" value="2" />
+-+    <task id="LOCAL-00002" summary="litte changes">
+-+      <option name="closed" value="true" />
+-+      <created>1725807204379</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725807204379</updated>
+-+    </task>
+-+    <task id="LOCAL-00003" summary="cart">
+-+      <option name="closed" value="true" />
+-+      <created>1725807221865</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725807221865</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="4" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-     <option name="version" value="3" />
+-   </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="TAB_STATES">
+-+      <map>
+-+        <entry key="MAIN">
+-+          <value>
+-+            <State />
+-+          </value>
+-+        </entry>
+-+      </map>
+-+    </option>
+-+  </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="Book page temp" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Book page temp" />
+-+    <MESSAGE value="litte changes" />
+-+    <MESSAGE value="cart" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="cart" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: book1.html
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/book1.html b/book_temp.html
+-rename from book1.html
+-rename to book_temp.html
+---- a/book1.html	(revision 1483d41b2dda8ac27ab891649b8851694c1889c5)
+-+++ b/book_temp.html	(date 1725809132604)
+-@@ -20,10 +20,10 @@
+-     <tr bgcolor="#6C48C5">
+-       <td align="center">
+-         <font color="white">
+--          <a href="index.html"> <font color="white"> Home  </font> </a> |
+--          <a href="cart.html"> <font color="white"> Shopping Cart </font> </a> |
+--          <a href="contacts.html"> <font color="white"> Contacts </font> </a> |
+--          <a href="categories.html"><font color="white">Categories</font></a>
+-+          <a href="../index.html"> <font color="white"> Home  </font> </a> |
+-+          <a href="../cart.html"> <font color="white"> Shopping Cart </font> </a> |
+-+          <a href="../contacts.html"> <font color="white"> Contacts </font> </a> |
+-+          <a href="../categories.html"><font color="white">Categories</font></a>
+-         </font>
+-       </td>
+-     </tr>
+-@@ -36,25 +36,25 @@
+-     <tr>
+-       <!-- Book photo -->
+-       <td align="center" valign="top" width="30%">
+--        <img src="book.jpg" alt="Book" width="200" height="300">
+-+        <img src="../img/book.jpg" alt="Book" width="200" height="300">
+-       </td>
+- 
+-       <!-- Description -->
+-       <td align="left" valign="top">
+--        <h2>Book name</h2>
+-+        <h2>name</h2>
+-         <p><b>Author:</b> Name</p>
+--        <p><b>Description:</b> TEXT TEXT TEXT TEXT</p>
+-+        <p><b>Description:</b> TEXT</p>
+-         <p><b>Price:</b> 777</p>
+-         <p><b>Score:</b> 4.5/5</p>
+-         <p>
+-           <b>Reviews:</b>
+-         <ul>
+--          <li>User1: TEXT TEXT TEXT</li>
+--          <li>User1: TEXT TEXT TEXT</li>
+--          <li>User1: TEXT TEXT TEXT</li>
+-+          <li>User1: TEXT</li>
+-+          <li>User1: TEXT</li>
+-+          <li>User1: TEXT</li>
+-         </ul>
+-         </p>
+--        <a href="cart.html">ADD TO CART</a>
+-+        <a href="../cart.html">ADD TO CART</a>
+-       </td>
+-     </tr>
+-   </table>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_08_09_2024_20_48_[Changes]/shelved.patch	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ /dev/null	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
+@@ -1,58 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"Added catergories and filled it with few options of genre of books\">\r\n      <change afterPath=\"$PROJECT_DIR$/fiction_book.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;zxc777zxc&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,\r\n    &quot;accountId&quot;: &quot;255768b4-d97e-4571-8a70-44e243a828c6&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lh1vQ3Ubn9jyHGTp4WF9qk4uut\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;JavaScript Debug.book1.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\" />\r\n      <created>1725617725526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725617725526</updated>\r\n      <workItem from=\"1725617726810\" duration=\"41000\" />\r\n      <workItem from=\"1725618487550\" duration=\"2000\" />\r\n      <workItem from=\"1725618590304\" duration=\"31000\" />\r\n      <workItem from=\"1725747850352\" duration=\"3580000\" />\r\n      <workItem from=\"1725769751833\" duration=\"17627000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Started to create page for contacts\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725777174958</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725777174958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Added Email, phone and social medias. I might change a few thing here later\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725782156651</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725782156651</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Fixed a little bit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725790971529</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725790971529</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Added categories\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725803943378</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725803943378</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Added transitions to other pages in categories\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725804272479</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725804272479</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Fixed a littble bit in contacts\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725807608662</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725807608662</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Added catergories and filled it with few options of genre of books\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725807839809</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725807839809</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Added catergories and filled it with few options of genre of books\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725808415314</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725808415314</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Started to create page for contacts\" />\r\n    <MESSAGE value=\"Added Email, phone and social medias. I might change a few thing here later\" />\r\n    <MESSAGE value=\"Fixed a little bit\" />\r\n    <MESSAGE value=\"Added categories\" />\r\n    <MESSAGE value=\"Added transitions to other pages in categories\" />\r\n    <MESSAGE value=\"Fixed a littble bit in contacts\" />\r\n    <MESSAGE value=\"Added catergories and filled it with few options of genre of books\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added catergories and filled it with few options of genre of books\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 8304957017abe4f5992ec536cc9dd1e784654546)
+-+++ b/.idea/workspace.xml	(date 1725810500040)
+-@@ -4,10 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Added catergories and filled it with few options of genre of books">
+--      <change afterPath="$PROJECT_DIR$/fiction_book.html" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--    </list>
+-+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="Added Fiction Bookstore" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -79,7 +76,7 @@
+-       <workItem from="1725618487550" duration="2000" />
+-       <workItem from="1725618590304" duration="31000" />
+-       <workItem from="1725747850352" duration="3580000" />
+--      <workItem from="1725769751833" duration="17627000" />
+-+      <workItem from="1725769751833" duration="18044000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="Started to create page for contacts">
+-       <option name="closed" value="true" />
+-@@ -145,7 +142,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1725808415314</updated>
+-     </task>
+--    <option name="localTasksCounter" value="9" />
+-+    <task id="LOCAL-00009" summary="Added Fiction Bookstore">
+-+      <option name="closed" value="true" />
+-+      <created>1725810204998</created>
+-+      <option name="number" value="00009" />
+-+      <option name="presentableId" value="LOCAL-00009" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1725810204998</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="10" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -170,6 +175,7 @@
+-     <MESSAGE value="Added transitions to other pages in categories" />
+-     <MESSAGE value="Fixed a littble bit in contacts" />
+-     <MESSAGE value="Added catergories and filled it with few options of genre of books" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Added catergories and filled it with few options of genre of books" />
+-+    <MESSAGE value="Added Fiction Bookstore" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Added Fiction Bookstore" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"CSS main page update\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book1.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book1.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book2.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book2.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book3.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book3.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book4.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book4.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book5.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book5.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Books/book6.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Books/book6.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;zxc777zxc&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubDefaultAccount\">\r\n    <option name=\"defaultAccountId\" value=\"0b42cec2-7238-4bdf-8855-2acffebd7b04\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,\r\n    &quot;accountId&quot;: &quot;0b42cec2-7238-4bdf-8855-2acffebd7b04&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lh1vQ3Ubn9jyHGTp4WF9qk4uut\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;JavaScript Debug.book1.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;JavaScript Debug.categories.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;JavaScript Debug.childrensbook.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ef1b615a-cf37-4ff5-9936-31c8cfcde789\" name=\"Changes\" comment=\"\" />\r\n      <created>1725617725526</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725617725526</updated>\r\n      <workItem from=\"1725617726810\" duration=\"41000\" />\r\n      <workItem from=\"1725618487550\" duration=\"2000\" />\r\n      <workItem from=\"1725618590304\" duration=\"31000\" />\r\n      <workItem from=\"1725747850352\" duration=\"3618000\" />\r\n      <workItem from=\"1725752544292\" duration=\"143000\" />\r\n      <workItem from=\"1725806250920\" duration=\"703000\" />\r\n      <workItem from=\"1725962358865\" duration=\"2827000\" />\r\n      <workItem from=\"1726218461453\" duration=\"476000\" />\r\n      <workItem from=\"1726222767197\" duration=\"22000\" />\r\n      <workItem from=\"1726386673214\" duration=\"6488000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Book page temp\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725752476555</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725752476555</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"CSS main page update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726390352998</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726390352998</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Book page temp\" />\r\n    <MESSAGE value=\"CSS main page update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"CSS main page update\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 19fcc5c5b8223442016bbe0ecfd67107607eda1a)
++++ b/.idea/workspace.xml	(date 1726395552206)
+@@ -4,16 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="CSS main page update">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book1.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book2.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book3.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book4.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book5.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Books/book6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book6.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-    </list>
++    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="CSS book pages update" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -100,7 +91,7 @@
+       <workItem from="1725962358865" duration="2827000" />
+       <workItem from="1726218461453" duration="476000" />
+       <workItem from="1726222767197" duration="22000" />
+-      <workItem from="1726386673214" duration="6488000" />
++      <workItem from="1726386673214" duration="7313000" />
+     </task>
+     <task id="LOCAL-00001" summary="Book page temp">
+       <option name="closed" value="true" />
+@@ -118,7 +109,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1726390352998</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="CSS book pages update">
++      <option name="closed" value="true" />
++      <created>1726393321114</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1726393321114</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -127,6 +126,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Book page temp" />
+     <MESSAGE value="CSS main page update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="CSS main page update" />
++    <MESSAGE value="CSS book pages update" />
++    <option name="LAST_COMMIT_MESSAGE" value="CSS book pages update" />
+   </component>
+ </project>
+\ No newline at end of file
