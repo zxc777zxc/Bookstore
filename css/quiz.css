@@ -1,44 +1,12 @@
-#quiz-title{
+.quiz-title{
     color: #52796f;
 }
-main {
-    margin: 20px auto;
-    max-width: 600px;
+.mb-4{
     padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.question {
-    margin-bottom: 20px;
-    text-align: left;
 }
 
-.question p {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-.question div {
-    margin-bottom: 10px;
-}
-label {
-     font-size: 16px;
-     margin-left: 10px;
- }
-
-button {
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px 20px;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #45a049;
+.m-100px-sm{
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 3%;
 }

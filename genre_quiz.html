@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Genre Quiz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/Head.css">
   <link rel="stylesheet" href="css/book.css">
   <link rel="stylesheet" href="css/quiz.css">
@@ -66,49 +67,50 @@
 </nav>
 </header>
 
-<h1 id="quiz-title" align="center">Which Book Genre Fits You?</h1>
+<!--Quiz-->
+<div class="container">
+  <h1 class="quiz-title text-center p-3 md">Which Book Genre Fits You?</h1>
+  <div class="m-100px-sm bg-white">
+    <form action="categories.html" method="POST">
+      <div class="mb-4">
+        <p>1. What kind of stories do you enjoy the most?</p>
+        <div>
+          <input type="radio" id="q1a1" name="q1" value="fiction">
+          <label for="q1a1">Epic adventures and imaginative worlds</label>
+        </div>
+        <div>
+          <input type="radio" id="q1a2" name="q1" value="children">
+          <label for="q1a2">Fun and magical stories with friendly characters</label>
+        </div>
+      </div>
 
-<main>
-  <form action="categories.html" method="POST">
+      <div class="mb-4">
+        <p>2. What appeals to you in a book's main character?</p>
+        <div>
+          <input type="radio" id="q2a1" name="q2" value="fiction">
+          <label for="q2a1">A brave hero overcoming great challenges</label>
+        </div>
+        <div>
+          <input type="radio" id="q2a2" name="q2" value="children">
+          <label for="q2a2">A relatable character who learns and grows</label>
+        </div>
+      </div>
 
-    <section class="question">
-      <p>1. What kind of stories do you enjoy the most?</p>
-      <div>
-        <input type="radio" id="q1a1" name="q1" value="fiction">
-        <label for="q1a1">Epic adventures and imaginative worlds</label>
+      <div class="mb-4">
+        <p>3. What type of settings do you find most intriguing?</p>
+        <div>
+          <input type="radio" id="q3a1" name="q3" value="fiction">
+          <label for="q3a1">Complex worlds with detailed lore and history</label>
+        </div>
+        <div>
+          <input type="radio" id="q3a2" name="q3" value="children">
+          <label for="q3a2">Bright and whimsical places with imaginative elements</label>
+        </div>
       </div>
-      <div>
-        <input type="radio" id="q1a2" name="q1" value="children">
-        <label for="q1a2">Fun and magical stories with friendly characters</label>
-      </div>
-    </section>
 
-    <section class="question">
-      <p>2. What appeals to you in a book's main character?</p>
-      <div>
-        <input type="radio" id="q2a1" name="q2" value="fiction">
-        <label for="q2a1">A brave hero overcoming great challenges</label>
-      </div>
-      <div>
-        <input type="radio" id="q2a2" name="q2" value="children">
-        <label for="q2a2">A relatable character who learns and grows</label>
-      </div>
-    </section>
-
-    <section class="question">
-      <p>3. What type of settings do you find most intriguing?</p>
-      <div>
-        <input type="radio" id="q3a1" name="q3" value="fiction">
-        <label for="q3a1">Complex worlds with detailed lore and history</label>
-      </div>
-      <div>
-        <input type="radio" id="q3a2" name="q3" value="children">
-        <label for="q3a2">Bright and whimsical places with imaginative elements</label>
-      </div>
-    </section>
-
-    <button type="submit">Submit</button>
-  </form>
-</main>
+      <div class="pl-3 - pb-3"><button type="submit" class="btn btn-success">Submit</button></div>
+    </form>
+  </div>
+</div>
 </body>
 </html>

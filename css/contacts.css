@@ -1,34 +1,45 @@
-body {
-    background-color: #C7F9CC;
-    font-family: Arial, sans-serif;
+
+.main-content{
+    background-image: url("https://wallpapers.com/images/hd/glowing-contact-us-logo-qx58564q7a51etk6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding:0;
 }
-.main-content {
-    padding: 20px;
-    text-align: center;
+.section-title{
+    color: white;
+}
+.section-description{
+    color: white;
+}
+p{
+    color: white;
 }
 .section-title {
-    color: #1230AE;
-}
-
-.section-description {
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #52796f;
+    color: white;
 }
-
-.social-media .social-item {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
+.contact-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.social-icon {
-    width: 65px;
+.contact-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
-.contact-info .contact-link {
-    color: #1230AE;
-    text-decoration: none;
+.contact-icon {
+    font-size: 3rem;
+    color: #ff7f50;
 }
-
-.contact-info .contact-link:hover {
-    text-decoration: underline;
+.messengers{
+    color: white;
+}
+.contacts{
+    color: white;
+}
+a{
+    color: red;
 }
