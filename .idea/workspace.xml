@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="CSS main page update">
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="add register button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genre_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/genre_quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +32,14 @@
   }
 }</component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="255768b4-d97e-4571-8a70-44e243a828c6" />
+    <option name="defaultAccountId" value="0b42cec2-7238-4bdf-8855-2acffebd7b04" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zxc777zxc/Bookstore.git",
-    "accountId": "255768b4-d97e-4571-8a70-44e243a828c6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,
+    &quot;accountId&quot;: &quot;0b42cec2-7238-4bdf-8855-2acffebd7b04&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -104,8 +102,8 @@
       <workItem from="1726566520949" duration="5722000" />
       <workItem from="1726826032521" duration="1565000" />
       <workItem from="1727014709611" duration="179000" />
-      <workItem from="1727019324371" duration="2328000" />
-      <workItem from="1727034399796" duration="3553000" />
+      <workItem from="1727019324371" duration="10882000" />
+      <workItem from="1727072909080" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="Book page temp">
       <option name="closed" value="true" />
@@ -123,7 +121,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726390352998</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Navbar bootstrap">
+      <option name="closed" value="true" />
+      <created>1727021816448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727021816448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Main page bootstrap">
+      <option name="closed" value="true" />
+      <created>1727030564909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727030564909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add register button">
+      <option name="closed" value="true" />
+      <created>1727072886704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727072886704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +154,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Book page temp" />
     <MESSAGE value="CSS main page update" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS main page update" />
+    <MESSAGE value="Navbar bootstrap" />
+    <MESSAGE value="Main page bootstrap" />
+    <MESSAGE value="add register button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add register button" />
   </component>
 </project>
