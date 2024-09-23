@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiction Books</title>
     <link rel="stylesheet" href="childrensbook.css">
-    <link rel="stylesheet" href="css/Head.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <style>
-        body{
+        body {
             background: #C7F9CC;
         }
-        header{
-            width: 100%;
+
+        .book-image img {
+            width: 400px;
+            height: 600px;
+            object-fit: cover;
         }
 
-        footer{
-            color:white;
+        footer {
+            color: white;
             background: #57CC99;
             height: 80px;
         }
@@ -27,101 +29,80 @@
 </head>
 
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-
-<header>
-    <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
+<header class="bg-success p-3 text-center">
+    <div class="container d-flex justify-content-between">
+        <a href="register.html" class="text-white">Login/Registration</a>
+        <span class="text-white">Welcome to our bookstore!</span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Bookshop</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Contact info</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categories
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
-                            <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="contacts.html">All</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="fiction_book.html" class="nav-link">Fiction</a></li>
+                    <li class="nav-item"><a href="childrensbook.html" class="nav-link">Children Books</a></li>
+                    <li class="nav-item"><a href="categories.html" class="nav-link">All Categories</a></li>
+                    <li class="nav-item"><a href="cart.html" class="nav-link">Shopping Cart</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Main page</a></li>
+                    <li class="nav-item"><a href="genre_quiz.html" class="nav-link">Quiz about genre</a></li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 </header>
 
-<section id="book-section">
-    <div class="book-container">
-        <div class="book-image">
-            <img src="https://d3525k1ryd2155.cloudfront.net/h/147/085/973085147.0.x.jpg" alt="Book" width="200" height="300">
+<section id="book-section" class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="book-image">
+                    <img src="https://d3525k1ryd2155.cloudfront.net/h/147/085/973085147.0.x.jpg" class="card-img-top" alt="Book">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Crime and Punishment</h5>
+                    <p class="card-text"><b>Author:</b> Fyodor Dostoevsky</p>
+                    <p class="card-text"><b>Description:</b> Centering on the poor former student Raskolnikov, whose theory that humanitarian ends justify evil means leads him to murder.</p>
+                    <p class="card-text"><b>Price:</b> $13.99</p>
+                    <p class="card-text"><b>Score:</b> 4.27/5</p>
+                    <ul>
+                        <li>User1: I finally said my goodbyes to this book. It was the best piece I've ever read.</li>
+                        <li>User2: Writing this was a crime and reading it was a punishment.</li>
+                        <li>User3: What a sensational reading experience!</li>
+                    </ul>
+                    <a href="cart.html" class="btn btn-success">ADD TO CART</a>
+                </div>
+            </div>
         </div>
-        <div class="book-info">
-            <h2>Fiction book</h2>
-            <p><b>Book:</b> Crime and Punishment</p>
-            <p><b>Author:</b> Fyodor Dostoevsky</p>
-            <p><b>Description:</b>  Centering on the poor former student Raskolnikov,
-                whose theory that humanitarian ends justify evil means leads him to murder.</p>
-            <p><b>Price:</b> $13.99</p>
-            <p><b>Score:</b> 4.27/5</p>
-            <p>
-                <b>Reviews:</b>
-            <ul>
-                <li>User1: I finally said my goodbyes to this book. It was the best piece I've ever read.</li>
-                <li>User2: Writing this was a crime and reading it was a punishment.</li>
-                <li>User3: What a sensational reading experience, what an unconditional surrender to an atmosphere of fear, anxiety and confusion - and to an epic battle of wills!</li>
-            </ul>
-            </p>
-            <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
+
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="book-image">
+                    <img src="https://cannonballread.com/wp-content/uploads/2023/01/01podcast-cover-mediumSquareAt3X.png" class="card-img-top" alt="Popular Book">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tomorrow, and Tomorrow, and Tomorrow</h5>
+                    <p class="card-text"><b>Author:</b> Gabrielle Zevin</p>
+                    <p class="card-text"><b>Description:</b> Multi-layered narrative that spans across three decades and follows the lives of Sam Masur and Sadie Green, two individuals who first bond over video games in a children's hospital.</p>
+                    <p class="card-text"><b>Price:</b> $13.99</p>
+                    <p class="card-text"><b>Score:</b> 4.15/5</p>
+                    <ul>
+                        <li>User1: This is one of those well-lauded books that I felt a bit hesitant going in.</li>
+                        <li>User2: Tomorrow, and Tomorrow, and Tomorrow I will still be thinking about this brilliant book.</li>
+                        <li>User3: This book made my heart ache.</li>
+                    </ul>
+                    <a href="cart.html" class="btn btn-success">ADD TO CART</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="popular-books">
-    <div class="book-container">
-        <div class="book-image">
-            <img src="https://cannonballread.com/wp-content/uploads/2023/01/01podcast-cover-mediumSquareAt3X.png" alt="Popular Book" width="200" height="300">
-        </div>
-        <div class="book-info">
-            <h2>The best fiction book</h2>
-            <p><b>Book:</b> Tomorrow, and Tomorrow, and Tomorrow</p>
-            <p><b>Author:</b> Gabrielle Zevin </p>
-            <p><b>Description:</b> Multi-layered narrative that spans across three decades and follows the lives of Sam Masur and Sadie Green, two individuals who first bond over video games in a children's hospital.</p>
-            <p><b>Price:</b> $13.99</p>
-            <p><b>Score:</b> 4.15/5</p>
-            <p>
-                <b>Reviews:</b>
-            <ul>
-                <li>User1: This is one of those well-lauded books that I felt a bit hesitant going in. I assumed it was targeted for a certain audience—either those who gravitate towards stories about complicated friendships, or gamers.</li>
-                <li>User2: Tomorrow, and Tomorrow, and Tomorrow I will still be thinking about this brilliant book.</li>
-                <li>User3: This book made my heart ache.</li>
-            </ul>
-            </p>
-            <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
-        </div>
-    </div>
-</section>
-
-<footer id="footer-section">
-    <div id="footer-content">
+<footer class="text-center mt-5">
+    <div class="container py-4">
         <p>Contact info: Email - ulanbakytbekov@gmail.com | Phone: +77079877684</p>
     </div>
 </footer>
