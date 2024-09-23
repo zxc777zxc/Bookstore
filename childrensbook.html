@@ -6,127 +6,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Children's Books</title>
   <link rel="stylesheet" href="childrensbook.css">
-  <link rel="stylesheet" href="css/Head.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
-        body{
-            background: #C7F9CC;
-        }
-        header{
-            width: 100%;
+        body {
+            background: #2D2D2D;
+            color: #EDEDED;
         }
 
-        footer{
-            color:white;
-            background: #57CC99;
+        header, footer {
+            width: 100%;
+            background-color: #212529;
+            color: white;
+        }
+
+        footer {
             height: 80px;
         }
-    </style>
+
+        /* Book card styling */
+        .card {
+            background-color: #343A40;
+            color: white;
+        }
+
+        .card-img-top {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #57CC99;
+        }
+  </style>
 </head>
 
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-<header>
-
+<header class="p-3 text-center">
+  <div class="container d-flex justify-content-between">
+    <a href="register.html" id="register" class="text-white">Login/Registration</a>
+    <span class="text-white">Welcome to our bookstore!</span>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
   <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Bookshop</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contact info</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categories
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
-              <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="categories.html">All</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-          <button class="btn btn-outline-info" type="submit"><a href="register.html">Login</a></button>
-          <button class="btn btn-outline-info" type="submit"><a href="register.html">Registration</a></button>
-        </form>
-      </div>
-    </div>
-  </nav>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Bookshop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
+                            <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contacts.html">All</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 </header>
 
-<section id="book-section">
-  <div class="book-container">
-    <div class="book-image">
-      <img src="https://ab-content.learningally.org/siteContent/bkimages/detail/NB033.jpg" alt="Book" width="200" height="300">
+<section id="book-section" class="container mt-5">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="https://ab-content.learningally.org/siteContent/bkimages/detail/NB033.jpg" class="card-img-top" alt="Book">
+        <div class="card-body">
+          <h5 class="card-title">The Adventures of Tom Sawyer</h5>
+          <p class="card-text"><b>Author:</b> Mark Twain</p>
+          <p class="card-text"><b>Price:</b> $10</p>
+          <p class="card-text"><b>Score:</b> 4.8/5</p>
+          <a href="cart.html" class="btn btn-outline-light">Add to Cart</a>
+        </div>
+      </div>
     </div>
-    <div class="book-info">
-      <h2>Books for (5+ years)</h2>
-      <p><b>Book:</b> The Adventures of Tom Sawyer and Huckleberry Finn</p>
-      <p><b>Author:</b> Mark Twain</p>
-      <p><b>Description:</b> The main idea of The Adventures of Tom Sawyer is that boyhood is a time of great adventure.</p>
-      <p><b>Price:</b> $10</p>
-      <p><b>Score:</b> 4.8/5</p>
-      <p>
-        <b>Reviews:</b>
-        <ul>
-          <li>User1: My baby loves this book!</li>
-          <li>User2: Great illustrations and simple story.</li>
-          <li>User3: Perfect for bedtime.</li>
-        </ul>
-      </p>
-      <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
+
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61lE5qphTeL.jpg" class="card-img-top" alt="Popular Book">
+        <div class="card-body">
+          <h5 class="card-title">The Magic Tree House</h5>
+          <p class="card-text"><b>Author:</b> Mary Pope Osborne</p>
+          <p class="card-text"><b>Price:</b> $12</p>
+          <p class="card-text"><b>Score:</b> 4.9/5</p>
+          <a href="cart.html" class="btn btn-outline-light">Add to Cart</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="popular-books">
-  <div class="book-container">
-    <div class="book-image">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/61lE5qphTeL.jpg" alt="Popular Book" width="200" height="300">
-    </div>
-    <div class="book-info">
-      <h2>Popular Children's Books</h2>
-      <p><b>Book:</b> The Magic Tree House</p>
-      <p><b>Author:</b> Mary Pope Osborne</p>
-      <p><b>Description:</b> A magical adventure that takes children through enchanted forests.</p>
-      <p><b>Price:</b> $12</p>
-      <p><b>Score:</b> 4.9/5</p>
-      <p>
-        <b>Reviews:</b>
-        <ul>
-          <li>User1: A classic! My kids were hooked.</li>
-          <li>User2: Engaging and beautifully written.</li>
-          <li>User3: We read this every night!</li>
-        </ul>
-      </p>
-      <a href="cart.html" class="add-to-cart-btn">ADD TO CART</a>
-    </div>
-  </div>
-</section>
-
-<footer id="footer-section">
-  <div id="footer-content">
+<footer class="text-center">
+  <div class="container py-4">
     <p>Contact info: Email - ulanbakytbekov@gmail.com | Phone: +77079877684</p>
   </div>
 </footer>
 
 </body>
-
 </html>

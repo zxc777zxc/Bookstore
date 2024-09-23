@@ -1,36 +1,22 @@
-/* General page styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #22577A;
 }
 
-/* Form container */
 .card {
     margin: 50px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Form styling */
 .form-control {
     border-radius: 5px;
     padding: 10px;
 }
 
-/* Submit button */
-.btn-success {
-    background-color: #38A3A5;
-}
-
-.btn-success:hover {
-    background-color: #2b8987;
-}
-
-/* Footer styling */
 footer {
-    background-color: #38A3A5;
+    background-color: #343A40;
     padding: 20px;
     text-align: center;
     color: white;
