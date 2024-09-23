@@ -48,11 +48,8 @@
 
 <body>
 
-<header class="p-3 text-center">
-    <div class="container d-flex justify-content-between">
-        <a href="register.html" class="text-white">Login/Registration</a>
-        <span class="text-white">Welcome to our bookstore!</span>
-    </div>
+<header>
+
     <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Bookshop</a>
@@ -75,13 +72,18 @@
                             <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
                             <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="contacts.html">All</a></li>
+                            <li><a class="dropdown-item" href="categories.html">All</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-info" type="submit"><a href="register.html">Login</a></button>
+                    <button class="btn btn-outline-info" type="submit"><a href="register.html">Registration</a></button>
                 </form>
             </div>
         </div>
