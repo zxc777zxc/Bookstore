@@ -1,3 +1,16 @@
 #genre{
-    color: #52796f;
+    color: #FFF7F7;
+
+}
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: red;
+}
+.my-carousel{
+    margin-outside: 100px;
+}
+.container-fluid{
 }
