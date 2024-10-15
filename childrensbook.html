@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Children's Books</title>
   <link rel="stylesheet" href="childrensbook.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   
   <style>
         body {
@@ -45,80 +46,81 @@
 
   <script>
     // Validate search input
-    function validateSearch() {
-      let searchInput = document.getElementById("search-input").value;
-      if (searchInput.trim() === "") {
-        alert("Please enter a search term.");
-        return false;
-      }
-      alert("Searching for: " + searchInput);
-      return true;
-    }
+function validateSearch(searchInput) {
+  if (searchInput.trim() === "") {
+    alert("Please enter a search term.");
+    return false;
+  }
+  alert("Searching for: " + searchInput);
+  return true;
+}
 
-    // Confirm before adding to cart
-    function confirmAddToCart(bookTitle) {
-      let confirmAction = confirm("Do you want to add '" + bookTitle + "' to your cart?");
-      if (confirmAction) {
-        alert(bookTitle + " has been added to your cart!");
-      } else {
-        alert("Action canceled.");
-      }
-    }
+// Confirm before adding to cart
+function confirmAddToCart(bookTitle) {
+  let confirmAction = confirm("Do you want to add '" + bookTitle + "' to your cart?");
+  if (confirmAction) {
+    alert(bookTitle + " has been added to your cart!");
+  } else {
+    alert("Action canceled.");
+  }
+}
 
-    // Prompt on Login
-    function loginUser() {
-      let userName = prompt("Please enter your username:");
-      if (userName) {
-        alert("Welcome, " + userName + "!");
-      } else {
-        alert("Login canceled.");
-      }
-    }
+// Prompt on Login
+function loginUser() {
+  let userName = prompt("Please enter your username:");
+  if (userName) {
+    alert("Welcome, " + userName + "!");
+  } else {
+    alert("Login canceled.");
+  }
+}
+
   </script>
 </head>
 
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-md bg-dark border-bottom border-body">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Bookshop</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Contact info</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categories
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
-                            <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="categories.html">All</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search" onsubmit="return validateSearch()">
-                    <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <button class="btn btn-outline-info" type="button" onclick="loginUser()">Login</button>
-                    <button class="btn btn-outline-info" type="submit"><a href="register.html">Registration</a></button>
-                </form>
+
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Bookshop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Contact info</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
+                                <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="categories.html">All</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-info" type="submit"><a href="register.html">Login</a></button>
+                        <button class="btn btn-outline-info" type="submit"><a href="register.html">Registration</a></button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
 <section id="book-section" class="container mt-5">
   <div class="row">

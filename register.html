@@ -21,37 +21,31 @@
 
     <script>
         // Function to validate form fields and passwords
-        function validateRegistrationForm(event) {
-            event.preventDefault(); // Prevent form from submitting
+function validateRegistrationForm(
+    firstName, lastName, email, phone, password, confirmPassword, submitFormCallback) {
 
-            let firstName = document.querySelector('input[name="first_name"]').value;
-            let lastName = document.querySelector('input[name="last_name"]').value;
-            let email = document.querySelector('input[name="email"]').value;
-            let phone = document.querySelector('input[name="phone"]').value;
-            let password = document.querySelector('input[name="password"]').value;
-            let confirmPassword = document.querySelector('input[name="confirm_password"]').value;
+    // Check if all fields are filled
+    if (!firstName || !lastName || !email || !phone || !password || !confirmPassword) {
+        alert("Please fill out all fields.");
+        return;
+    }
 
-            // Check if all fields are filled
-            if (!firstName || !lastName || !email || !phone || !password || !confirmPassword) {
-                alert("Please fill out all fields.");
-                return;
-            }
+    // Check if passwords match
+    if (password !== confirmPassword) {
+        alert("Passwords do not match. Please try again.");
+        return;
+    }
 
-            // Check if passwords match
-            if (password !== confirmPassword) {
-                alert("Passwords do not match. Please try again.");
-                return;
-            }
+    // Confirm submission
+    let confirmAction = confirm("Do you want to submit the registration form?");
+    if (confirmAction) {
+        alert("Registration successful!");
+        submitFormCallback(); // Submit form through the callback
+    } else {
+        alert("Registration canceled.");
+    }
+}
 
-            // Confirm submission
-            let confirmAction = confirm("Do you want to submit the registration form?");
-            if (confirmAction) {
-                alert("Registration successful!");
-                document.getElementById("registration-form").submit(); // Submit form
-            } else {
-                alert("Registration canceled.");
-            }
-        }
     </script>
 </head>
 <body>
