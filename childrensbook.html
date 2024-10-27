@@ -44,16 +44,70 @@
         }
   </style>
 
-  <script>
-    // Validate search input
-function validateSearch(searchInput) {
-  if (searchInput.trim() === "") {
-    alert("Please enter a search term.");
-    return false;
-  }
-  alert("Searching for: " + searchInput);
-  return true;
-}
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const authButton = document.querySelector('.registration-button a');
+
+        // Проверка состояния входа пользователя
+        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+        if (isLoggedIn) {
+            authButton.textContent = "Profile";
+            authButton.href = "register.html";
+        } else {
+            authButton.textContent = "Registration";
+            authButton.href = "register.html";
+        }
+    });
+
+    function registerUser(event) {
+        event.preventDefault();
+
+        // Логика регистрации
+        const firstName = document.getElementById('first_name').value.trim();
+        const lastName = document.getElementById('last_name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirm_password').value;
+
+        if (!firstName || !lastName || !email || !password || password !== confirmPassword) {
+            alert("Please fill out all fields correctly.");
+            return;
+        }
+
+        localStorage.setItem("userFirstName", firstName);
+        localStorage.setItem("userLastName", lastName);
+        localStorage.setItem("userEmail", email);
+        localStorage.setItem("userPassword", password);
+        localStorage.setItem("isLoggedIn", "true");
+
+        alert("Registration successful!");
+        window.location.href = "register.html";
+    }
+
+    function loginUser(event) {
+        event.preventDefault();
+
+        // Логика входа
+        const email = document.getElementById('login_email').value.trim();
+        const password = document.getElementById('login_password').value;
+
+        const savedEmail = localStorage.getItem("userEmail");
+        const savedPassword = localStorage.getItem("userPassword");
+
+        if (email === savedEmail && password === savedPassword) {
+            localStorage.setItem("isLoggedIn", "true");
+            window.location.href = "register.html";
+        } else {
+            alert("Invalid email or password.");
+        }
+    }
+
+    function logout() {
+        localStorage.removeItem("isLoggedIn");
+        window.location.href = "register.html"; // Перенаправление на страницу регистрации после выхода
+    }
+
+
 
 // Confirm before adding to cart
 function confirmAddToCart(bookTitle) {
@@ -65,15 +119,6 @@ function confirmAddToCart(bookTitle) {
   }
 }
 
-// Prompt on Login
-function loginUser() {
-  let userName = prompt("Please enter your username:");
-  if (userName) {
-    alert("Welcome, " + userName + "!");
-  } else {
-    alert("Login canceled.");
-  }
-}
 
   </script>
 </head>
@@ -82,12 +127,15 @@ function loginUser() {
 
 <header>
 
+
         <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Bookshop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+               
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -114,8 +162,7 @@ function loginUser() {
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-                        <button class="btn btn-outline-info" type="submit"><a href="register.html">Login</a></button>
-                        <button class="btn btn-outline-info" type="submit"><a href="register.html">Registration</a></button>
+                        <button class="btn btn-outline-info registration-button" type="submit"><a href="register.html">Registration</a></button>
                     </form>
                 </div>
             </div>
