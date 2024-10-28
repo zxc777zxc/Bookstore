@@ -21,48 +21,42 @@
     }
   </style>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {      const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+      const authButton = document.querySelector('.registration-button a');      authButton.textContent = isLoggedIn ? "Profile" : "Registration";
+      authButton.href = "register.html";      updateCartCount();
+    });
+  </script>
+
 </head>
 <body >
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Title -->
 <header>
-
-  <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">Bookshop</a>
+      <a class="navbar-brand" href="index.html">Bookshop</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contacts.html">Contact info</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categories
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../fiction_book.html">Fiction</a></li>
-              <li><a class="dropdown-item" href="../childrensbook.html">For children</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../categories.html">All</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../genre_quiz.html">Genre recommendation</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Contact info</a></li>
+          <li class="nav-item"><a class="nav-link" href="genre_quiz.html">Genre recommendation</a></li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-          <button class="btn btn-outline-info" type="submit"><a href="../register.html">Login</a></button>
-          <button class="btn btn-outline-info" type="submit"><a href="../register.html">Registration</a></button>
+          <button class="btn btn-outline-info registration-button" type="submit"><a href="register.html">Registration</a></button>
         </form>
+        <div class="cart-icon ms-3">
+          <a href="cart.html" class="btn btn-outline-light">
+            <i class="fas fa-shopping-cart"></i> Cart <span id="cart-count" class="cart-count">0</span>
+          </a>
+        </div>
       </div>
     </div>
   </nav>
