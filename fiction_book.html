@@ -44,6 +44,12 @@
             object-fit: cover;
         }
     </style>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {      const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+      const authButton = document.querySelector('.registration-button a');      authButton.textContent = isLoggedIn ? "Profile" : "Registration";
+      authButton.href = "register.html";      updateCartCount();
+    });
+</script>
 </head>
 
 <body>
@@ -67,6 +73,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
                                 <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
+                                <li><a class="dropdown-item" href="mysteries.html">Mysteries</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="categories.html">All</a></li>
                             </ul>
