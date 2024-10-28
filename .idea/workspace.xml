@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="JS">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024_15_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024_15_07__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2024_17_19_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2024_17_19__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="cart and main filter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books/book6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Books/book6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genre_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/genre_quiz.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +58,7 @@
     &quot;JavaScript Debug.categories.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.childrensbook.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.contacts.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.genre_quiz.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -128,7 +118,8 @@
       <workItem from="1728985654536" duration="175000" />
       <workItem from="1728986057978" duration="126000" />
       <workItem from="1728986898442" duration="2085000" />
-      <workItem from="1730114665794" duration="5968000" />
+      <workItem from="1730114665794" duration="6525000" />
+      <workItem from="1730127587007" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="Book page temp">
       <option name="closed" value="true" />
@@ -178,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728983568185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cart and main filter">
+      <option name="closed" value="true" />
+      <created>1730124580104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730124580104</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +201,7 @@
     <MESSAGE value="Main page bootstrap" />
     <MESSAGE value="add register button" />
     <MESSAGE value="JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS" />
+    <MESSAGE value="cart and main filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart and main filter" />
   </component>
 </project>
