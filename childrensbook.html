@@ -1,173 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Children's Books</title>
   <link rel="stylesheet" href="childrensbook.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
   <style>
-        body {
-            background: #2D2D2D;
-            color: #EDEDED;
-        }
+    body {
+      background: #2D2D2D;
+      color: #EDEDED;
+    }
 
-        header, footer {
-            width: 100%;
-            background-color: #212529;
-            color: white;
-        }
+    header, footer {
+      width: 100%;
+      background-color: #212529;
+      color: white;
+    }
 
-        footer {
-            height: 80px;
-        }
+    footer {
+      height: 80px;
+    }
 
-        .card {
-            background-color: #343A40;
-            color: white;
-        }
+    .card {
+      background-color: #343A40;
+      color: white;
+    }
 
-        .card-img-top {
-            width: 200px;
-            height: 300px;
-            object-fit: cover;
-        }
+    .card-img-top {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+    }
 
-        .navbar-light .navbar-nav .nav-link {
-            color: white;
-        }
+    .navbar-light .navbar-nav .nav-link {
+      color: white;
+    }
 
-        .navbar-light .navbar-nav .nav-link:hover {
-            color: #57CC99;
-        }
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #57CC99;
+    }
+
+    .cart-icon {
+      position: relative;
+      color: white;
+    }
+
+    .cart-count {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #ff6b6b;
+      color: white;
+      border-radius: 50%;
+      padding: 2px 5px;
+      font-size: 12px;
+    }
   </style>
 
- <script>
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const authButton = document.querySelector('.registration-button a');
-
-        // Проверка состояния входа пользователя
-        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
-        if (isLoggedIn) {
-            authButton.textContent = "Profile";
-            authButton.href = "register.html";
-        } else {
-            authButton.textContent = "Registration";
-            authButton.href = "register.html";
-        }
+      const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+      const authButton = document.querySelector('.registration-button a');
+      authButton.textContent = isLoggedIn ? "Profile" : "Registration";
+      authButton.href = "register.html";
+      updateCartCount();
     });
 
-    function registerUser(event) {
-        event.preventDefault();
-
-        // Логика регистрации
-        const firstName = document.getElementById('first_name').value.trim();
-        const lastName = document.getElementById('last_name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const password = document.getElementById('password').value;
-        const confirmPassword = document.getElementById('confirm_password').value;
-
-        if (!firstName || !lastName || !email || !password || password !== confirmPassword) {
-            alert("Please fill out all fields correctly.");
-            return;
-        }
-
-        localStorage.setItem("userFirstName", firstName);
-        localStorage.setItem("userLastName", lastName);
-        localStorage.setItem("userEmail", email);
-        localStorage.setItem("userPassword", password);
-        localStorage.setItem("isLoggedIn", "true");
-
-        alert("Registration successful!");
-        window.location.href = "register.html";
+    function updateCartCount() {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
+      document.getElementById("cart-count").textContent = cartCount;
     }
 
-    function loginUser(event) {
-        event.preventDefault();
+    function addToCart(id, name, price) {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const itemIndex = cart.findIndex(item => item.id === id);
 
-        // Логика входа
-        const email = document.getElementById('login_email').value.trim();
-        const password = document.getElementById('login_password').value;
+      if (itemIndex > -1) {
+        cart[itemIndex].quantity += 1;
+      } else {
+        cart.push({ id, name, price, quantity: 1 });
+      }
 
-        const savedEmail = localStorage.getItem("userEmail");
-        const savedPassword = localStorage.getItem("userPassword");
-
-        if (email === savedEmail && password === savedPassword) {
-            localStorage.setItem("isLoggedIn", "true");
-            window.location.href = "register.html";
-        } else {
-            alert("Invalid email or password.");
-        }
+      localStorage.setItem('cart', JSON.stringify(cart));
+      alert(`${name} added to cart!`);
+      updateCartCount();
     }
-
-    function logout() {
-        localStorage.removeItem("isLoggedIn");
-        window.location.href = "register.html"; // Перенаправление на страницу регистрации после выхода
-    }
-
-
-
-// Confirm before adding to cart
-function confirmAddToCart(bookTitle) {
-  let confirmAction = confirm("Do you want to add '" + bookTitle + "' to your cart?");
-  if (confirmAction) {
-    alert(bookTitle + " has been added to your cart!");
-  } else {
-    alert("Action canceled.");
-  }
-}
-
-
   </script>
 </head>
 
 <body>
 
 <header>
+  <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Bookshop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-        <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body"  data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Bookshop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-               
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contact info</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="fiction_book.html">Fiction</a></li>
-                                <li><a class="dropdown-item" href="childrensbook.html">For children</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="categories.html">All</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="genre_quiz.html">Genre recommendation</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                        <button class="btn btn-outline-info registration-button" type="submit"><a href="register.html">Registration</a></button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Contact info</a></li>
+          <li class="nav-item"><a class="nav-link" href="genre_quiz.html">Genre recommendation</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-info registration-button" type="submit"><a href="register.html">Registration</a></button>
+        </form>
+        <div class="cart-icon ms-3">
+          <a href="cart.html" class="btn btn-outline-light">
+            <i class="fas fa-shopping-cart"></i> Cart <span id="cart-count" class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
 
 <section id="book-section" class="container mt-5">
   <div class="row">
@@ -177,9 +131,9 @@ function confirmAddToCart(bookTitle) {
         <div class="card-body">
           <h5 class="card-title">The Adventures of Tom Sawyer</h5>
           <p class="card-text"><b>Author:</b> Mark Twain</p>
-          <p class="card-text"><b>Price:</b> $10</p>
+          <p class="card-text"><b>Price:</b> 10</p>
           <p class="card-text"><b>Score:</b> 4.8/5</p>
-          <button class="btn btn-outline-light" onclick="confirmAddToCart('The Adventures of Tom Sawyer')">Add to Cart</button>
+          <button class="btn btn-outline-light" onclick="addToCart(1, 'The Adventures of Tom Sawyer', 10)">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -190,9 +144,9 @@ function confirmAddToCart(bookTitle) {
         <div class="card-body">
           <h5 class="card-title">The Magic Tree House</h5>
           <p class="card-text"><b>Author:</b> Mary Pope Osborne</p>
-          <p class="card-text"><b>Price:</b> $12</p>
+          <p class="card-text"><b>Price:</b> 12</p>
           <p class="card-text"><b>Score:</b> 4.9/5</p>
-          <button class="btn btn-outline-light" onclick="confirmAddToCart('The Magic Tree House')">Add to Cart</button>
+          <button class="btn btn-outline-light" onclick="addToCart(2, 'The Magic Tree House', 12)">Add to Cart</button>
         </div>
       </div>
     </div>
