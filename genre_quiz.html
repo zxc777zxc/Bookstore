@@ -33,13 +33,17 @@
   </script>
 </head>
 <script>
-  document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
+  function submitQuiz() {
+    // Prevent default form submission
     let fictionScore = 0;
     let childrenScore = 0;
 
     const answers = document.querySelectorAll('input[type="radio"]:checked');
+    if (answers.length < 3) {
+      alert("Please answer all questions.");
+      return;
+    }
+
     answers.forEach(answer => {
       if (answer.value === 'fiction') {
         fictionScore++;
@@ -48,19 +52,14 @@
       }
     });
 
-    let genre;
-    if (fictionScore > childrenScore) {
-      genre = 'fiction';
-    } else {
-      genre = 'children';
-    }
+    const genre = fictionScore > childrenScore ? 'fiction' : 'children';
 
     if (genre === 'fiction') {
       window.location.href = 'fiction_book.html';
-    } else if (genre === 'children') {
+    } else {
       window.location.href = 'childrensbook.html';
     }
-  });
+  }
 </script>
 
 <body>
@@ -137,7 +136,7 @@
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-info">Submit</button>
+        <button type="button" class="btn btn-info" onclick="submitQuiz()">Submit</button>
         </div>
     </form>
       </div>
