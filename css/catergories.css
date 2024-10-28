@@ -1,38 +1,69 @@
-#genre{
-    color: #FFF7F7;
-
+header {
+    width: 100%;
 }
-img{
+footer {
+    color: white;
+    background: #57CC99;
+    height: 80px;
+}
+
+/* Specific styles for genre, images, and gallery */
+#genre {
+    color: #FFF7F7;
+}
+img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-h3{
+h3 {
     color: red;
 }
-.my-carousel{
+.my-carousel {
     margin-outside: 100px;
 }
+
+/* Gallery styling with animations */
 .gallery-item {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
 }
 
 .gallery-item img {
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.3s ease;
     border-radius: 10px;
 }
 
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Caption animation styling */
 .carousel-caption {
-    /*<!--position: absolute; -->*/
     bottom: 10px;
     left: 50%;
     transform: translateX(0%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 5px 10px;
     border-radius: 5px;
+    color: #007bff;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.gallery-item:hover .carousel-caption {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 a {
