@@ -59,6 +59,26 @@
             const password = document.getElementById('password').value;
             const confirmPassword = document.getElementById('confirm_password').value;
 
+            const nameRegex = /^(?=.*[A-Z])[A-Za-z]+$/;
+            const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+
+            if (!firstName.match(nameRegex)) {
+                alert("First name must contain at least 1 capital and only letters.");
+                return;
+            }
+            if (!lastName.match(nameRegex)) {
+                alert("Last name must contain at least 1 capital and only letters.");
+                return;
+            }
+            if (!password.match(passwordRegex)) {
+                alert("Password must be at least 8 characters, contain at least one uppercase letter, and one symbol.");
+                return;
+            }
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return;
+            }
+
             if (!firstName || !lastName || !email || !password || password !== confirmPassword) {
                 alert("Please fill out all fields correctly.");
                 return;
@@ -176,6 +196,7 @@
             document.querySelector('.btn-outline-info').textContent = "Login";
             document.querySelector('.btn-outline-info').href = "register.html";
         }
+        
     </script>
 </head>
 <body>
@@ -220,6 +241,7 @@
         </div>
     </nav>
 </header>
+
 
 <div class="container mt-5">
     <div id="registration-section" class="card bg-light text-dark hidden">
@@ -274,6 +296,7 @@
         </div>
     </div>
 </div>
+
 <div id="admin-panel-section" class="card bg-light text-dark hidden">
     <div class="card-body">
         <h3 class="card-title text-center">Admin Panel</h3>
