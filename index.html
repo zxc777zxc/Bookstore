@@ -117,10 +117,10 @@
                         </li>
           <li class="nav-item"><a class="nav-link" href="genre_quiz.html">Genre recommendation</a></li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="d-flex" role="search" onsubmit="return searchBooks()">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
           <button class="btn btn-outline-success" type="submit">Search</button>
-          <button class="btn btn-outline-info registration-button" type="submit"><a href="register.html">Registration</a></button>
+            <button class="btn btn-outline-info registration-button" type="button" onclick="goToBookPage('register.html')">Registration</button>
         </form>
         <div class="cart-icon ms-3">
           <a href="cart.html" class="btn btn-outline-light">

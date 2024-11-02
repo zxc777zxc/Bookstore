@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="added admin panel">
+    <list default="true" id="ef1b615a-cf37-4ff5-9936-31c8cfcde789" name="Changes" comment="k">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -33,12 +31,12 @@
   }
 }</component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="255768b4-d97e-4571-8a70-44e243a828c6" />
+    <option name="defaultAccountId" value="0b42cec2-7238-4bdf-8855-2acffebd7b04" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/zxc777zxc/Bookstore.git&quot;,
-    &quot;accountId&quot;: &quot;255768b4-d97e-4571-8a70-44e243a828c6&quot;
+    &quot;accountId&quot;: &quot;0b42cec2-7238-4bdf-8855-2acffebd7b04&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -55,14 +53,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.admin.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.book1.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.cart.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.categories.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.childrensbook.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.contacts.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.genre_quiz.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.mysteries.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -78,7 +75,6 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Аскат Наринбетов\WebstormProjects\Book-Store" />
       <recent name="C:\Users\M\WebstormProjects\Bookstore" />
     </key>
   </component>
@@ -116,15 +112,15 @@
       <workItem from="1727019324371" duration="10882000" />
       <workItem from="1727072909080" duration="331000" />
       <workItem from="1728982452369" duration="5000" />
-      <workItem from="1728983161442" duration="345000" />
-      <workItem from="1729593168212" duration="327000" />
-      <workItem from="1729941534908" duration="1183000" />
-      <workItem from="1729957172986" duration="5511000" />
-      <workItem from="1730112403701" duration="993000" />
-      <workItem from="1730118035363" duration="17631000" />
-      <workItem from="1730189447615" duration="804000" />
-      <workItem from="1730197354430" duration="3411000" />
-      <workItem from="1730556502849" duration="1080000" />
+      <workItem from="1728983161442" duration="537000" />
+      <workItem from="1728983781357" duration="7000" />
+      <workItem from="1728985093972" duration="321000" />
+      <workItem from="1728985654536" duration="175000" />
+      <workItem from="1728986057978" duration="126000" />
+      <workItem from="1728986898442" duration="2085000" />
+      <workItem from="1730114665794" duration="6525000" />
+      <workItem from="1730127587007" duration="1006000" />
+      <workItem from="1730136300476" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="Book page temp">
       <option name="closed" value="true" />
@@ -166,47 +162,39 @@
       <option name="project" value="LOCAL" />
       <updated>1727072886704</updated>
     </task>
-    <task id="LOCAL-00006" summary="improved some pages">
+    <task id="LOCAL-00006" summary="JS">
       <option name="closed" value="true" />
-      <created>1730133877327</created>
+      <created>1728983568185</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1730133877327</updated>
+      <updated>1728983568185</updated>
     </task>
-    <task id="LOCAL-00007" summary="improved some pages">
+    <task id="LOCAL-00007" summary="cart and main filter">
       <option name="closed" value="true" />
-      <created>1730133966920</created>
+      <created>1730124580104</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1730133966920</updated>
+      <updated>1730124580104</updated>
     </task>
-    <task id="LOCAL-00008" summary="improved some pages">
+    <task id="LOCAL-00008" summary="quiz">
       <option name="closed" value="true" />
-      <created>1730134002683</created>
+      <created>1730130992565</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1730134002683</updated>
+      <updated>1730130992565</updated>
     </task>
-    <task id="LOCAL-00009" summary="added admin panel">
+    <task id="LOCAL-00009" summary="k">
       <option name="closed" value="true" />
-      <created>1730137938161</created>
+      <created>1730131008914</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1730137938161</updated>
+      <updated>1730131008914</updated>
     </task>
-    <task id="LOCAL-00010" summary="added admin panel">
-      <option name="closed" value="true" />
-      <created>1730137968558</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1730137968558</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,8 +217,10 @@
     <MESSAGE value="Navbar bootstrap" />
     <MESSAGE value="Main page bootstrap" />
     <MESSAGE value="add register button" />
-    <MESSAGE value="improved some pages" />
-    <MESSAGE value="added admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="added admin panel" />
+    <MESSAGE value="JS" />
+    <MESSAGE value="cart and main filter" />
+    <MESSAGE value="quiz" />
+    <MESSAGE value="k" />
+    <option name="LAST_COMMIT_MESSAGE" value="k" />
   </component>
 </project>
