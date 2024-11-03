@@ -43,12 +43,141 @@
             height: auto;
             object-fit: cover;
         }
+        .modal {
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: none;
+        }
+
+        .modal-content {
+            background-color: #343A40;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #ff6b6b;
+            text-decoration: none;
+            cursor: pointer;
+        }.reviews {
+             margin-top: 10px;
+             font-size: 14px;
+             color: #EDEDED;
+         }
+
+        .score {
+            font-weight: bold;
+            margin-top: 5px;
+            color: #57CC99;
+        }
     </style>
     <script>
-document.addEventListener("DOMContentLoaded", function() {      const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
-      const authButton = document.querySelector('.registration-button a');      authButton.textContent = isLoggedIn ? "Profile" : "Registration";
-      authButton.href = "register.html";      updateCartCount();
-    });
+        document.addEventListener("DOMContentLoaded", function() {
+            const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+            const authButton = document.querySelector('.registration-button a');
+            authButton.textContent = isLoggedIn ? "Profile" : "Registration";
+            authButton.href = "register.html";
+            updateCartCount();
+        });
+
+        function updateCartCount() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
+            document.getElementById("cart-count").textContent = cartCount;
+        }
+
+        function addToCart(id, name, price) {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const itemIndex = cart.findIndex(item => item.id === id);
+
+            if (itemIndex > -1) {
+                cart[itemIndex].quantity += 1;
+            } else {
+                cart.push({ id, name, price, quantity: 1 });
+            }
+
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert(`${name} added to cart!`);
+            updateCartCount();
+        }
+        let currentBookTitle = '';
+
+        function openReviewModal(title) {
+            currentBookTitle = title;
+            document.getElementById('reviewModal').style.display = 'block';
+        }
+
+        function closeReviewModal() {
+            document.getElementById('reviewModal').style.display = 'none';
+        }
+
+        function submitReview() {
+            const reviewText = document.getElementById('reviewText').value;
+            const reviewScore = parseFloat(document.getElementById('reviewScore').value);
+
+            if (!reviewText || reviewScore < 1 || reviewScore > 5) {
+                alert("Please enter a valid review and score between 1 and 5.");
+                return;
+            }
+            const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+            reviews.push({ bookTitle: currentBookTitle, review: reviewText, score: parseFloat(reviewScore)});
+            localStorage.setItem('reviews', JSON.stringify(reviews));
+
+            document.getElementById('reviewText').value = '';
+            document.getElementById('reviewScore').value = '';
+
+            closeReviewModal();
+
+            alert(`Thank you for your review of "${currentBookTitle}"!`);
+
+            displayReviews(currentBookTitle);
+        }
+        function displayReviews(title) {
+            const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+            const bookReviews = reviews.filter(review => review.bookTitle === title);
+
+            const reviewsContainer = document.getElementById(`reviews-${title}`);
+            const scoreContainer = document.getElementById(`score-${title}`);
+            reviewsContainer.innerHTML = '';
+            scoreContainer.innerHTML = '';
+
+            if (bookReviews.length > 0) {
+                bookReviews.forEach(review => {
+                    const reviewElement = document.createElement('p');
+                    reviewElement.textContent = `"${review.review}" - Score: ${review.score}`;
+                    reviewsContainer.appendChild(reviewElement);
+                });
+
+                const totalScore = bookReviews.reduce((sum, review) => sum + review.score, 0);
+                const averageScore = bookReviews.length > 0 ? (totalScore / bookReviews.length).toFixed(1) : 0;
+                scoreContainer.textContent = `Score: ${averageScore}`;
+            } else {
+                reviewsContainer.textContent = 'No reviews yet.';
+                scoreContainer.textContent = 'Score: N/A';
+            }
+        }
+        window.onclick = function(event) {
+            const modal = document.getElementById('reviewModal');
+            if (event.target === modal) {
+                closeReviewModal();
+            }
+        }
 </script>
 </head>
 
@@ -106,14 +235,10 @@ document.addEventListener("DOMContentLoaded", function() {      const isLoggedIn
                     <h5 class="card-title">Crime and Punishment</h5>
                     <p class="card-text"><b>Author:</b> Fyodor Dostoevsky</p>
                     <p class="card-text"><b>Description:</b> Centering on the poor former student Raskolnikov, whose theory that humanitarian ends justify evil means leads him to murder.</p>
-                    <p class="card-text"><b>Price:</b> $13.99</p>
-                    <p class="card-text"><b>Score:</b> 4.27/5</p>
-                    <ul>
-                        <li>User1: I finally said my goodbyes to this book. It was the best piece I've ever read.</li>
-                        <li>User2: Writing this was a crime and reading it was a punishment.</li>
-                        <li>User3: What a sensational reading experience!</li>
-                    </ul>
-                    <a href="cart.html" class="btn btn-outline-light">ADD TO CART</a>
+                    <button class="btn btn-outline-light" onclick="addToCart(1, 'Crime and Punishment', 14)">Add to Cart</button>
+                    <button class="btn btn-outline-light" onclick="openReviewModal('Crime and Punishment')">Leave a Review</button>
+                    <div id="reviews-Crime and Punishment" class="reviews"></div>
+                    <div id="score-Crime and Punishment" class="score"></div>
                 </div>
             </div>
         </div>
@@ -127,19 +252,37 @@ document.addEventListener("DOMContentLoaded", function() {      const isLoggedIn
                     <h5 class="card-title">Tomorrow, and Tomorrow, and Tomorrow</h5>
                     <p class="card-text"><b>Author:</b> Gabrielle Zevin</p>
                     <p class="card-text"><b>Description:</b> Multi-layered narrative that spans across three decades and follows the lives of Sam Masur and Sadie Green, two individuals who first bond over video games in a children's hospital.</p>
-                    <p class="card-text"><b>Price:</b> $13.99</p>
-                    <p class="card-text"><b>Score:</b> 4.15/5</p>
-                    <ul>
-                        <li>User1: This is one of those well-lauded books that I felt a bit hesitant going in.</li>
-                        <li>User2: Tomorrow, and Tomorrow, and Tomorrow I will still be thinking about this brilliant book.</li>
-                        <li>User3: This book made my heart ache.</li>
-                    </ul>
-                    <a href="cart.html" class="btn btn-outline-light">ADD TO CART</a>
+                    <button class="btn btn-outline-light" onclick="addToCart(2, 'Tomorrow, and Tomorrow, and Tomorrow', 14)">Add to Cart</button>
+                    <button class="btn btn-outline-light" onclick="openReviewModal('Tomorrow, and Tomorrow, and Tomorrow')">Leave a Review</button>
+                    <div id="reviews-Tomorrow, and Tomorrow, and Tomorrow" class="reviews"></div>
+                    <div id="score-Tomorrow, and Tomorrow, and Tomorrow" class="score"></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<div id="reviewModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5>Leave a Review</h5>
+            <span class="close" onclick="closeReviewModal()">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="reviewText" class="form-label">Your Review</label>
+                <textarea class="form-control" id="reviewText" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="reviewScore" class="form-label">Your Score (1-5)</label>
+                <input type="number" class="form-control" id="reviewScore" min="1" max="5">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" onclick="closeReviewModal()">Close</button>
+            <button class="btn btn-primary" onclick="submitReview()">Submit Review</button>
+        </div>
+    </div>
+</div>
 
 <footer class="text-center mt-5">
     <div class="container py-4">

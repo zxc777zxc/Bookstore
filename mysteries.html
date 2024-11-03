@@ -58,7 +58,50 @@
           padding: 2px 5px;
           font-size: 12px;
       }
+      .modal {
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+      }
 
+      .modal-content {
+        background-color: #343A40;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+
+      .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #ff6b6b;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .reviews {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #EDEDED;
+      }
+
+      .score {
+        font-weight: bold;
+        margin-top: 5px;
+        color: #57CC99;
+      }
   </style>
 
   <script>
@@ -95,11 +138,73 @@
           alert(`${name} added to cart!`);
           updateCartCount();
       }
+      let currentBookTitle = '';
+
+      function openReviewModal(title) {
+        currentBookTitle = title;
+        document.getElementById('reviewModal').style.display = 'block';
+      }
+
+      function closeReviewModal() {
+        document.getElementById('reviewModal').style.display = 'none';
+      }
+
+      function submitReview() {
+        const reviewText = document.getElementById('reviewText').value;
+        const reviewScore = parseFloat(document.getElementById('reviewScore').value);
+
+        if (!reviewText || reviewScore < 1 || reviewScore > 5) {
+          alert("Please enter a valid review and score between 1 and 5.");
+          return;
+        }
+        const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+        reviews.push({ bookTitle: currentBookTitle, review: reviewText, score: parseFloat(reviewScore)});
+        localStorage.setItem('reviews', JSON.stringify(reviews));
+
+        document.getElementById('reviewText').value = '';
+        document.getElementById('reviewScore').value = '';
+
+        closeReviewModal();
+
+        alert(`Thank you for your review of "${currentBookTitle}"!`);
+
+        displayReviews(currentBookTitle);
+      }
+      function displayReviews(title) {
+        const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+        const bookReviews = reviews.filter(review => review.bookTitle === title);
+
+        const reviewsContainer = document.getElementById(`reviews-${title}`);
+        const scoreContainer = document.getElementById(`score-${title}`);
+
+        reviewsContainer.innerHTML = '';
+        scoreContainer.innerHTML = '';
+
+        if (bookReviews.length > 0) {
+          bookReviews.forEach(review => {
+            const reviewElement = document.createElement('p');
+            reviewElement.textContent = `"${review.review}" - Score: ${review.score}`;
+            reviewsContainer.appendChild(reviewElement);
+          });
+
+          const totalScore = bookReviews.reduce((sum, review) => sum + review.score, 0);
+          const averageScore = bookReviews.length > 0 ? (totalScore / bookReviews.length).toFixed(1) : 0;
+          scoreContainer.textContent = `Score: ${averageScore}`;
+        } else {
+          reviewsContainer.textContent = 'No reviews yet.';
+          scoreContainer.textContent = 'Score: N/A';
+        }
+      }
+      window.onclick = function(event) {
+        const modal = document.getElementById('reviewModal');
+        if (event.target === modal) {
+          closeReviewModal();
+        }
+      }
+
   </script>
 </head>
-
 <body>
-
 <header>
   <nav class="navbar navbar-expand-md bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
@@ -150,9 +255,10 @@
         <div class="card-body">
           <h5 class="card-title">The Shining</h5>
           <p class="card-text"><b>Author:</b> Stephen King</p>
-          <p class="card-text"><b>Price:</b> $15</p>
-          <p class="card-text"><b>Score:</b> 4.8/5</p>
           <button class="btn btn-outline-light" onclick="addToCart('1', 'The Shining', 15)">Add to Cart</button>
+          <button class="btn btn-outline-light" onclick="openReviewModal('The Shining')">Leave a Review</button>
+          <div id="reviews-The Shining" class="reviews"><br></div>
+          <div id="score-The Shining" class="score"></div>
         </div>
       </div>
     </div>
@@ -164,9 +270,10 @@
         <div class="card-body">
           <h5 class="card-title">Rebecca</h5>
           <p class="card-text"><b>Author:</b> Daphne du Maurier</p>
-          <p class="card-text"><b>Price:</b> $12</p>
-          <p class="card-text"><b>Score:</b> 4.7/5</p>
           <button class="btn btn-outline-light" onclick="addToCart('2', 'Rebecca', 12)">Add to Cart</button>
+          <button class="btn btn-outline-light" onclick="openReviewModal('Rebecca')">Leave a Review</button>
+          <div id="reviews-Rebecca" class="reviews"></div>
+          <div id="score-Rebecca" class="score"></div>
         </div>
       </div>
     </div>
@@ -178,14 +285,38 @@
         <div class="card-body">
           <h5 class="card-title">The Haunting of Hill House</h5>
           <p class="card-text"><b>Author:</b> Shirley Jackson</p>
-          <p class="card-text"><b>Price:</b> $10</p>
-          <p class="card-text"><b>Score:</b> 4.6/5</p>
           <button class="btn btn-outline-light" onclick="addToCart('3', 'The Haunting of Hill House', 10)">Add to Cart</button>
+          <button class="btn btn-outline-light" onclick="openReviewModal('The Haunting of Hill House')">Leave a Review</button>
+          <div id="reviews-The Haunting of Hill House" class="reviews"></div>
+          <div id="score-The Haunting of Hill House" class="score"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<div id="reviewModal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5>Leave a Review</h5>
+      <span class="close" onclick="closeReviewModal()">&times;</span>
+    </div>
+    <div class="modal-body">
+      <div class="mb-3">
+        <label for="reviewText" class="form-label">Your Review</label>
+        <textarea class="form-control" id="reviewText" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="reviewScore" class="form-label">Your Score (1-5)</label>
+        <input type="number" class="form-control" id="reviewScore" min="1" max="5">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeReviewModal()">Close</button>
+      <button class="btn btn-primary" onclick="submitReview()">Submit Review</button>
+    </div>
+  </div>
+</div>
 
 <footer class="text-center">
   <div class="container py-4">
