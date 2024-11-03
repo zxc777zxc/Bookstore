@@ -39,9 +39,7 @@ p{
 .contacts{
     color: white;
 }
-a{
-    color: red;
-}
+
 .contact-card img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -88,4 +86,10 @@ body {
 .fade-in-visible {
     opacity: 1;
     transform: translateY(0);
+}
+.messenger-link a {
+    color: red;
+}
+.gmail-link a{
+    color: darkseagreen;
 }
