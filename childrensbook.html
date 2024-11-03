@@ -112,7 +112,6 @@
       authButton.href = "register.html";
       updateCartCount();
     });
-
     function updateCartCount() {
       const cart = JSON.parse(localStorage.getItem('cart')) || [];
       const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
