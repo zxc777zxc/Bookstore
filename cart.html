@@ -48,7 +48,7 @@
             if (newQuantity > 0) {
                 cart[index].quantity = newQuantity;
                 localStorage.setItem('cart', JSON.stringify(cart));
-                loadCart(); // Перезагружаем корзину для обновления данных
+                loadCart();
             }
         }
 
