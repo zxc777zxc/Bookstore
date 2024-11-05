@@ -37,7 +37,6 @@
     // Prevent default form submission
     let fictionScore = 0;
     let childrenScore = 0;
-
     const answers = document.querySelectorAll('input[type="radio"]:checked');
     if (answers.length < 3) {
       alert("Please answer all questions.");
@@ -59,6 +58,17 @@
     } else {
       window.location.href = 'childrensbook.html';
     }
+  }
+
+
+  function addCircle(){
+    var cirlce = document.createElement("div");
+    cirlce.style.borderRadius="100px"
+    cirlce.style.border="1px solid black";
+    cirlce.style.width="100px";
+    cirlce.style.height="100px";
+    cirlce.style.background="white";
+    document.body.appendChild(cirlce)
   }
 </script>
 
@@ -149,7 +159,10 @@
       </div>
       <div class="d-flex justify-content-center">
         <button type="button" class="btn btn-info" onclick="submitQuiz()">Submit</button>
+        <button type="button" class="btn btn-info" onclick="addCircle()">Circle</button>
+
         </div>
+
     </form>
       </div>
     </div>

@@ -13,7 +13,6 @@
         .cart-total { font-size: 1.5rem; margin-top: 20px; text-align: right; }
     </style>
     <script>
-        // Функция для загрузки товаров из корзины
         function loadCart() {
             const cartContainer = document.getElementById('cart-items');
             const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -27,27 +26,37 @@
                 const cartItem = document.createElement('div');
                 cartItem.className = 'cart-item';
                 cartItem.innerHTML = `
-                    <div>
-                        <h5>${item.name}</h5>
-                        <p>Price: $${item.price.toFixed(2)} x ${item.quantity}</p>
-                    </div>
-                    <div>
-                        <button class="btn btn-sm btn-danger" onclick="removeItem(${index})">Remove</button>
-                    </div>
-                `;
+            <div>
+                <h5>${item.name}</h5>
+                <p>Price: $${item.price.toFixed(2)}</p>
+            </div>
+            <div>
+                <input type="number" value="${item.quantity}" min="1" class="form-control" style="width: 70px;" onchange="updateQuantity(${index}, this.value)">
+                <button class="btn btn-sm btn-danger" onclick="removeItem(${index})">Remove</button>
+            </div>
+        `;
                 cartContainer.appendChild(cartItem);
             });
 
             document.getElementById('cart-total').textContent = `Total: $${total.toFixed(2)}`;
         }
 
-        // Функция для очистки корзины
+        function updateQuantity(index, newQuantity) {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            newQuantity = parseInt(newQuantity);
+
+            if (newQuantity > 0) {
+                cart[index].quantity = newQuantity;
+                localStorage.setItem('cart', JSON.stringify(cart));
+                loadCart(); // Перезагружаем корзину для обновления данных
+            }
+        }
+
         function clearCart() {
             localStorage.removeItem('cart');
             loadCart();
         }
 
-        // Функция для удаления одного товара
         function removeItem(index) {
             let cart = JSON.parse(localStorage.getItem('cart')) || [];
             cart.splice(index, 1); // Удаление элемента по индексу
@@ -55,7 +64,6 @@
             loadCart();
         }
 
-        // Функция для отображения модального окна оплаты
         function showPaymentModal() {
             const modalBackdrop = document.createElement('div');
             modalBackdrop.style.position = 'fixed';
@@ -78,13 +86,13 @@
             modalWindow.style.width = '100%';
 
             modalWindow.innerHTML = `
-                <h5>Enter Payment Details</h5>
-                <input type="text" placeholder="Card Number" style="width: 100%; margin-bottom: 10px; padding: 8px;">
-                <input type="text" placeholder="Expiration Date (MM/YY)" style="width: 100%; margin-bottom: 10px; padding: 8px;">
-                <input type="text" placeholder="CVV" style="width: 100%; margin-bottom: 10px; padding: 8px;">
-                <button class="btn btn-success" style="width: 100%; margin-top: 10px;" onclick="processPayment()">Pay</button>
-                <button class="btn btn-secondary" style="width: 100%; margin-top: 5px;" onclick="closePaymentModal()">Cancel</button>
-            `;
+        <h5>Enter Payment Details</h5>
+        <input type="text" placeholder="Card Number" style="width: 100%; margin-bottom: 10px; padding: 8px;">
+        <input type="text" placeholder="Expiration Date (MM/YY)" style="width: 100%; margin-bottom: 10px; padding: 8px;">
+        <input type="text" placeholder="CVV" style="width: 100%; margin-bottom: 10px; padding: 8px;">
+        <button class="btn btn-success" style="width: 100%; margin-top: 10px;" onclick="processPayment()">Pay</button>
+        <button class="btn btn-secondary" style="width: 100%; margin-top: 5px;" onclick="closePaymentModal()">Cancel</button>
+    `;
 
             modalBackdrop.appendChild(modalWindow);
             document.body.appendChild(modalBackdrop);
@@ -102,6 +110,7 @@
         }
 
         document.addEventListener('DOMContentLoaded', loadCart);
+
     </script>
 </head>
 <body>
